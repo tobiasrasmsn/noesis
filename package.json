@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/d3-interpolate": "^3.0.4",
+    "@types/flubber": "^0.4.0",
+    "d3-interpolate": "^3.0.1",
+    "flubber": "^0.4.2",
     "framer-motion": "^11.3.19",
     "next": "14.2.5",
     "react": "^18",
