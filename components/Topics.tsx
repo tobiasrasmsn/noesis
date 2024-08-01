@@ -34,7 +34,7 @@ export const topics: Topic[] = [
         gradient: "from-red-500 to-rose-300",
     },
     {
-        name: "Food & Cooking",
+        name: "Cooking",
         icon: FaUtensils,
         gradient: "from-rose-500 to-orange-300",
     },
@@ -176,16 +176,16 @@ export default function Topics({ onTopicSelect }: TopicsProps) {
     };
 
     return (
-        <div className="flex overflow-hidden justify-center items-center flex-col relative w-full h-full bg-zinc-900">
+        <div className="flex overflow-hidden justify-center items-center flex-col relative w-full h-full bg-zinc-900 p-4">
             <motion.h2
-                className="text-2xl mb-5 text-zinc-300"
+                className="text-2xl mb-5 text-zinc-300 text-nowrap"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
             >
                 Pick a topic to get started.
             </motion.h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-4xl mx-auto">
+            <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 max-w-4xl mx-auto">
                 {topics.map((topic, index) => (
                     <motion.div
                         key={index}

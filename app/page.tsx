@@ -8,13 +8,11 @@ export default function Home() {
 
     const handleTopicSelect = (topic: Topic) => {
         setSelectedTopic(topic);
-        // Add your navigation logic here, for example:
-        // setTimeout(() => router.push(`/quiz/${topic.name}`), 1000);
     };
 
     return (
-        <main className="bg-zinc-900 w-screen h-screen">
-            <section className="w-full h-full px-8 md:px-12 flex justify-center items-center">
+        <main className="bg-zinc-900 min-h-[100dvh] h-full w-full flex items-center justify-center">
+            <section className="w-full px-8 md:px-12 flex justify-center items-center py-12">
                 <Topics onTopicSelect={handleTopicSelect} />
             </section>
         </main>

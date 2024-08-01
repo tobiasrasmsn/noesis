@@ -101,8 +101,7 @@ export default function QuizPage({ params }: Props) {
         if (selectedAnswer === null) return "bg-zinc-700 hover:bg-zinc-600";
         if (index === randomizedQuestions[currentQuestion].correctAnswer)
             return "bg-green-500 hover:bg-green-600";
-        if (index === selectedAnswer)
-            return "bg-orange-500 hover:bg-orange-600";
+        if (index === selectedAnswer) return "bg-red-500 hover:bg-red-600";
         return "bg-zinc-700 hover:bg-zinc-600";
     };
 

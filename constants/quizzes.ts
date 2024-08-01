@@ -74,6 +74,70 @@ export const SPACE = {
             ],
             correctAnswer: 2,
         },
+        {
+            question:
+                "What is the name of the first American astronaut to orbit Earth?",
+            answers: [
+                "Alan Shepard",
+                "John Glenn",
+                "Neil Armstrong",
+                "Buzz Aldrin",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "What planet is known for its prominent ring system?",
+            answers: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the closest planet to the Sun?",
+            answers: ["Venus", "Earth", "Mercury", "Mars"],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "What is the name of the rover that landed on Mars in 2021?",
+            answers: ["Curiosity", "Spirit", "Opportunity", "Perseverance"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Which planet has the most extensive system of moons?",
+            answers: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "What phenomenon occurs when the Moon passes directly between the Earth and the Sun?",
+            answers: [
+                "Lunar Eclipse",
+                "Solar Eclipse",
+                "New Moon",
+                "Full Moon",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "What is the name of the dwarf planet located in the asteroid belt?",
+            answers: ["Pluto", "Ceres", "Eris", "Haumea"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which mission was the first to land humans on the Moon?",
+            answers: ["Apollo 11", "Apollo 12", "Apollo 13", "Apollo 14"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the second-largest planet in our solar system?",
+            answers: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which planet is known for having a Great Red Spot?",
+            answers: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+            correctAnswer: 0,
+        },
     ],
 };
 
@@ -170,6 +234,86 @@ export const HISTORY = {
             ],
             correctAnswer: 1,
         },
+        {
+            question:
+                "Who was the first female Prime Minister of the United Kingdom?",
+            answers: [
+                "Margaret Thatcher",
+                "Theresa May",
+                "Angela Merkel",
+                "Indira Gandhi",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "In which year did the Berlin Wall fall?",
+            answers: ["1987", "1988", "1989", "1990"],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "Who was the leader of the Soviet Union during World War II?",
+            answers: [
+                "Vladimir Lenin",
+                "Joseph Stalin",
+                "Nikita Khrushchev",
+                "Leonid Brezhnev",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "What was the name of the ship that brought the Pilgrims to America in 1620?",
+            answers: ["Mayflower", "Santa Maria", "Endeavour", "Discovery"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who was the first emperor of China?",
+            answers: [
+                "Qin Shi Huang",
+                "Liu Bang",
+                "Kublai Khan",
+                "Sun Yat-sen",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which ancient civilization built the pyramids of Giza?",
+            answers: ["Maya", "Inca", "Aztec", "Egyptian"],
+            correctAnswer: 3,
+        },
+        {
+            question:
+                "What was the name of the ancient trade route connecting the East and West?",
+            answers: ["Silk Road", "Royal Road", "Amber Road", "Incense Route"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who was the first person to circumnavigate the globe?",
+            answers: [
+                "Christopher Columbus",
+                "Ferdinand Magellan",
+                "Vasco da Gama",
+                "James Cook",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "In which year did the American Civil War begin?",
+            answers: ["1860", "1861", "1862", "1863"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "Who was the first President of the United States to be impeached?",
+            answers: [
+                "Andrew Johnson",
+                "Richard Nixon",
+                "Bill Clinton",
+                "Donald Trump",
+            ],
+            correctAnswer: 0,
+        },
     ],
 };
 
@@ -256,6 +400,61 @@ export const SCIENCE = {
             question: "What planet is known as the Earth's twin?",
             answers: ["Mars", "Venus", "Jupiter", "Saturn"],
             correctAnswer: 1,
+        },
+        {
+            question: "What is the chemical symbol for iron?",
+            answers: ["Ir", "In", "Fe", "F"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the process by which cells divide?",
+            answers: ["Meiosis", "Mitosis", "Binary fission", "Cytokinesis"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the most abundant element in the universe?",
+            answers: ["Oxygen", "Hydrogen", "Carbon", "Nitrogen"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the study of fungi called?",
+            answers: ["Botany", "Zoology", "Mycology", "Bacteriology"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What particle is responsible for electricity?",
+            answers: ["Proton", "Neutron", "Electron", "Photon"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the powerhouse of the cell?",
+            answers: [
+                "Nucleus",
+                "Mitochondria",
+                "Ribosome",
+                "Endoplasmic Reticulum",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "What gas do plants absorb from the atmosphere?",
+            answers: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Methane"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the hardest natural substance on Earth?",
+            answers: ["Gold", "Iron", "Diamond", "Platinum"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which planet is known as the Earth's twin?",
+            answers: ["Mars", "Venus", "Jupiter", "Saturn"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the main gas found in the air we breathe?",
+            answers: ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+            correctAnswer: 3,
         },
     ],
 };
@@ -367,6 +566,74 @@ export const TECHNOLOGY = {
             ],
             correctAnswer: 2,
         },
+        {
+            question: "What year was the World Wide Web invented?",
+            answers: ["1989", "1990", "1991", "1992"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What does HTTP stand for?",
+            answers: [
+                "HyperText Transfer Protocol",
+                "HyperText Transfer Process",
+                "HyperTransfer Text Protocol",
+                "HyperTransfer Text Process",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who is the founder of Tesla, Inc.?",
+            answers: ["Bill Gates", "Steve Jobs", "Elon Musk", "Jeff Bezos"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the name of Apple's voice assistant?",
+            answers: ["Alexa", "Cortana", "Siri", "Google Assistant"],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "What programming language is known as the backbone of web development?",
+            answers: ["Python", "JavaScript", "Ruby", "PHP"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What does USB stand for?",
+            answers: [
+                "Universal Serial Bus",
+                "Universal Service Bus",
+                "Universal System Bus",
+                "Universal Storage Bus",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which company developed the Android operating system?",
+            answers: ["Apple", "Microsoft", "Google", "Samsung"],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "What is the most popular social media platform as of 2023?",
+            answers: ["Facebook", "Instagram", "Twitter", "TikTok"],
+            correctAnswer: 3,
+        },
+        {
+            question:
+                "What is the term for a malicious software designed to harm, exploit, or otherwise compromise a computer system?",
+            answers: ["Virus", "Trojan", "Malware", "Worm"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the primary purpose of an operating system?",
+            answers: [
+                "Managing hardware resources",
+                "Word processing",
+                "Browsing the internet",
+                "Creating spreadsheets",
+            ],
+            correctAnswer: 0,
+        },
     ],
 };
 
@@ -448,6 +715,67 @@ export const MUSIC = {
                 "What musical notation symbol indicates the pitch of a note?",
             answers: ["Staff", "Clef", "Ledger line", "Time signature"],
             correctAnswer: 1,
+        },
+        {
+            question: "What instrument is known as the 'king of instruments'?",
+            answers: ["Violin", "Piano", "Organ", "Guitar"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which composer wrote 'The Magic Flute'?",
+            answers: ["Mozart", "Beethoven", "Bach", "Tchaikovsky"],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "What is the term for a piece of music written for a single performer?",
+            answers: ["Duet", "Quartet", "Solo", "Ensemble"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Who is known as the 'Queen of Soul'?",
+            answers: [
+                "Whitney Houston",
+                "Mariah Carey",
+                "Aretha Franklin",
+                "Diana Ross",
+            ],
+            correctAnswer: 2,
+        },
+        {
+            question: "What genre of music is associated with Louis Armstrong?",
+            answers: ["Rock", "Classical", "Jazz", "Pop"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which band was Freddie Mercury the lead singer of?",
+            answers: [
+                "The Beatles",
+                "Queen",
+                "The Rolling Stones",
+                "Led Zeppelin",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the highest male singing voice?",
+            answers: ["Tenor", "Baritone", "Bass", "Countertenor"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which music genre originated in Jamaica?",
+            answers: ["Reggae", "Jazz", "Blues", "Rock"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the traditional Japanese drum called?",
+            answers: ["Bongo", "Conga", "Taiko", "Djembe"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Who wrote the opera 'Carmen'?",
+            answers: ["Verdi", "Wagner", "Bizet", "Puccini"],
+            correctAnswer: 2,
         },
     ],
 };
@@ -569,6 +897,96 @@ export const MOVIES = {
             ],
             correctAnswer: 1,
         },
+        {
+            question: "Who directed the movie 'Pulp Fiction'?",
+            answers: [
+                "Steven Spielberg",
+                "Quentin Tarantino",
+                "Martin Scorsese",
+                "Francis Ford Coppola",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "Which actor starred as the main character in 'The Matrix'?",
+            answers: [
+                "Brad Pitt",
+                "Keanu Reeves",
+                "Tom Cruise",
+                "Leonardo DiCaprio",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "Which film won the Academy Award for Best Picture in 1994?",
+            answers: [
+                "Pulp Fiction",
+                "Forrest Gump",
+                "Shawshank Redemption",
+                "Four Weddings and a Funeral",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the highest-grossing animated film of all time?",
+            answers: ["Frozen", "The Lion King", "Toy Story 4", "Finding Nemo"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "Who played the character of Jack Sparrow in 'Pirates of the Caribbean'?",
+            answers: [
+                "Johnny Depp",
+                "Orlando Bloom",
+                "Keira Knightley",
+                "Geoffrey Rush",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which movie features the quote, 'I'll be back'?",
+            answers: ["Terminator", "Die Hard", "Predator", "Total Recall"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who directed the movie 'Schindler's List'?",
+            answers: [
+                "Steven Spielberg",
+                "James Cameron",
+                "Quentin Tarantino",
+                "Martin Scorsese",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which actor played Forrest Gump?",
+            answers: ["Tom Hanks", "Matt Damon", "Brad Pitt", "Johnny Depp"],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "What is the name of the second film in the 'Lord of the Rings' trilogy?",
+            answers: [
+                "The Fellowship of the Ring",
+                "The Two Towers",
+                "The Return of the King",
+                "The Hobbit",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "Which film won the Academy Award for Best Picture in 2021?",
+            answers: [
+                "Mank",
+                "Nomadland",
+                "The Father",
+                "Judas and the Black Messiah",
+            ],
+            correctAnswer: 1,
+        },
     ],
 };
 
@@ -633,6 +1051,59 @@ export const SPORTS = {
         {
             question: "In which sport would you find a 'putter'?",
             answers: ["Tennis", "Basketball", "Golf", "Baseball"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which country has won the most FIFA World Cup titles?",
+            answers: ["Brazil", "Germany", "Italy", "Argentina"],
+            correctAnswer: 0,
+        },
+        {
+            question: "In which sport would you use a shuttlecock?",
+            answers: ["Tennis", "Badminton", "Squash", "Racquetball"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the term for three strikes in a row in bowling?",
+            answers: ["Spare", "Double", "Turkey", "Strike"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which country hosts the Tour de France?",
+            answers: ["Italy", "Spain", "France", "Belgium"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the national sport of Japan?",
+            answers: ["Karate", "Sumo Wrestling", "Judo", "Kendo"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "In which sport do players use mallets to hit a ball through hoops?",
+            answers: ["Polo", "Croquet", "Golf", "Hockey"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "Who holds the record for the most home runs in a single MLB season?",
+            answers: ["Babe Ruth", "Hank Aaron", "Barry Bonds", "Mark McGwire"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which country has won the most Olympic medals overall?",
+            answers: ["China", "Russia", "Germany", "USA"],
+            correctAnswer: 3,
+        },
+        {
+            question: "In which sport do you compete in a velodrome?",
+            answers: ["Cycling", "Running", "Swimming", "Skiing"],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "What is the highest possible score in a single game of ten-pin bowling?",
+            answers: ["200", "250", "300", "350"],
             correctAnswer: 2,
         },
     ],
@@ -756,6 +1227,92 @@ export const ART = {
             ],
             correctAnswer: 1,
         },
+        {
+            question: "Who painted 'The Persistence of Memory'?",
+            answers: [
+                "Salvador Dalí",
+                "Pablo Picasso",
+                "Vincent van Gogh",
+                "Claude Monet",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the art style of Andy Warhol known for?",
+            answers: ["Cubism", "Surrealism", "Pop Art", "Impressionism"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which artist is known for his blue period?",
+            answers: [
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Henri Matisse",
+                "Paul Gauguin",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the term for a painting done on wet plaster?",
+            answers: ["Fresco", "Mural", "Relief", "Mosaic"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which artist is famous for 'The Scream'?",
+            answers: [
+                "Edvard Munch",
+                "Claude Monet",
+                "Paul Cézanne",
+                "Gustav Klimt",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which art movement did Jackson Pollock belong to?",
+            answers: [
+                "Abstract Expressionism",
+                "Cubism",
+                "Surrealism",
+                "Pop Art",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "What is the name of the art technique that uses small dots to create an image?",
+            answers: ["Pointillism", "Cubism", "Surrealism", "Impressionism"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which artist is known for his depictions of ballerinas?",
+            answers: [
+                "Vincent van Gogh",
+                "Claude Monet",
+                "Edgar Degas",
+                "Paul Gauguin",
+            ],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the title of Leonardo da Vinci's famous mural?",
+            answers: [
+                "The Last Supper",
+                "Mona Lisa",
+                "Vitruvian Man",
+                "Annunciation",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which artist is known for 'Starry Night'?",
+            answers: [
+                "Claude Monet",
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Edvard Munch",
+            ],
+            correctAnswer: 1,
+        },
     ],
 };
 
@@ -874,6 +1431,107 @@ export const LITERATURE = {
             answers: ["Wendy", "Dorothy", "Alice", "Belle"],
             correctAnswer: 2,
         },
+        {
+            question: "Who wrote 'Brave New World'?",
+            answers: [
+                "George Orwell",
+                "Aldous Huxley",
+                "Ray Bradbury",
+                "H.G. Wells",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which novel starts with the line 'Call me Ishmael'?",
+            answers: [
+                "Moby-Dick",
+                "Pride and Prejudice",
+                "The Great Gatsby",
+                "1984",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who wrote 'The Picture of Dorian Gray'?",
+            answers: [
+                "Oscar Wilde",
+                "Charles Dickens",
+                "F. Scott Fitzgerald",
+                "Mark Twain",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which book series is written by J.K. Rowling?",
+            answers: [
+                "The Hunger Games",
+                "Percy Jackson",
+                "Harry Potter",
+                "Divergent",
+            ],
+            correctAnswer: 2,
+        },
+        {
+            question: "Who wrote 'The Hobbit'?",
+            answers: [
+                "J.R.R. Tolkien",
+                "C.S. Lewis",
+                "George R.R. Martin",
+                "J.K. Rowling",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "What is the title of the second book in the 'Lord of the Rings' series?",
+            answers: [
+                "The Fellowship of the Ring",
+                "The Two Towers",
+                "The Return of the King",
+                "The Silmarillion",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "Who wrote 'Pride and Prejudice'?",
+            answers: [
+                "Emily Brontë",
+                "Jane Austen",
+                "Charlotte Brontë",
+                "George Eliot",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which book features the character Atticus Finch?",
+            answers: [
+                "The Great Gatsby",
+                "1984",
+                "To Kill a Mockingbird",
+                "Moby-Dick",
+            ],
+            correctAnswer: 2,
+        },
+        {
+            question: "Who wrote 'The Brothers Karamazov'?",
+            answers: [
+                "Fyodor Dostoevsky",
+                "Leo Tolstoy",
+                "Anton Chekhov",
+                "Ivan Turgenev",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who is the author of 'Crime and Punishment'?",
+            answers: [
+                "Leo Tolstoy",
+                "Fyodor Dostoevsky",
+                "Anton Chekhov",
+                "Ivan Turgenev",
+            ],
+            correctAnswer: 1,
+        },
     ],
 };
 
@@ -939,6 +1597,61 @@ export const GEOGRAPHY = {
             question: "What is the capital of Brazil?",
             answers: ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
             correctAnswer: 2,
+        },
+        {
+            question: "What is the capital of Canada?",
+            answers: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which river is the longest in the United States?",
+            answers: ["Mississippi", "Missouri", "Colorado", "Rio Grande"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the largest island in the world?",
+            answers: ["Borneo", "Madagascar", "Greenland", "New Guinea"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the capital of Egypt?",
+            answers: ["Cairo", "Alexandria", "Giza", "Luxor"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the smallest continent by land area?",
+            answers: ["Europe", "Australia", "Antarctica", "South America"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which country has the largest population in the world?",
+            answers: ["India", "USA", "China", "Indonesia"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the capital of Italy?",
+            answers: ["Venice", "Florence", "Rome", "Milan"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which desert is the largest in the world?",
+            answers: ["Gobi", "Kalahari", "Sahara", "Antarctica"],
+            correctAnswer: 3,
+        },
+        {
+            question: "What is the name of the highest mountain in Africa?",
+            answers: [
+                "Mount Everest",
+                "Mount Kilimanjaro",
+                "Mount Kenya",
+                "Mount Elbrus",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which sea is the saltiest body of water on Earth?",
+            answers: ["Red Sea", "Black Sea", "Caspian Sea", "Dead Sea"],
+            correctAnswer: 3,
         },
     ],
 };
@@ -1018,6 +1731,57 @@ export const NATURE = {
             ],
             correctAnswer: 0,
         },
+        {
+            question: "What is the largest species of bird?",
+            answers: ["Eagle", "Albatross", "Ostrich", "Condor"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the primary diet of a panda?",
+            answers: ["Bamboo", "Insects", "Fish", "Small mammals"],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "Which animal is known for changing its color to blend with its surroundings?",
+            answers: ["Chameleon", "Gecko", "Frog", "Snake"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which tree is known for having the longest lifespan?",
+            answers: ["Oak", "Pine", "Bristlecone Pine", "Baobab"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the largest mammal in the ocean?",
+            answers: ["Shark", "Dolphin", "Blue Whale", "Seal"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What type of animal is a Komodo dragon?",
+            answers: ["Lizard", "Snake", "Turtle", "Crocodile"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which animal is known as man's best friend?",
+            answers: ["Cat", "Dog", "Horse", "Rabbit"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the main component of a rhino's horn?",
+            answers: ["Bone", "Cartilage", "Keratin", "Ivory"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which insect is known for its role in pollination?",
+            answers: ["Ant", "Bee", "Spider", "Butterfly"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the largest species of reptile?",
+            answers: ["Crocodile", "Lizard", "Snake", "Turtle"],
+            correctAnswer: 0,
+        },
     ],
 };
 
@@ -1083,6 +1847,57 @@ export const MYTHOLOGY = {
         {
             question: "In Norse mythology, what is the name of the world tree?",
             answers: ["Yggdrasil", "Midgard", "Asgard", "Valhalla"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the name of the Greek god of war?",
+            answers: ["Ares", "Hades", "Zeus", "Poseidon"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who is the Roman equivalent of the Greek god Ares?",
+            answers: ["Jupiter", "Mars", "Neptune", "Saturn"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the name of the Norse world tree?",
+            answers: ["Asgard", "Yggdrasil", "Valhalla", "Midgard"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Who is the Egyptian god of the sky?",
+            answers: ["Ra", "Anubis", "Horus", "Osiris"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which mythological creature is known for its labyrinth?",
+            answers: ["Minotaur", "Cyclops", "Centaur", "Gorgon"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Who is the Roman goddess of love?",
+            answers: ["Minerva", "Diana", "Venus", "Juno"],
+            correctAnswer: 2,
+        },
+        {
+            question: "In Greek mythology, who is the messenger of the gods?",
+            answers: ["Hermes", "Apollo", "Ares", "Hephaestus"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the name of the dragon slain by St. George?",
+            answers: ["Fafnir", "Smaug", "Vritra", "Ladon"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Who is the Greek god of wine?",
+            answers: ["Ares", "Hades", "Dionysus", "Zeus"],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "Which creature has the body of a lion and the head of an eagle?",
+            answers: ["Griffin", "Chimera", "Sphinx", "Hydra"],
             correctAnswer: 0,
         },
     ],
@@ -1184,10 +1999,82 @@ export const BUSINESS = {
             answers: ["Adidas", "Puma", "Nike", "Reebok"],
             correctAnswer: 2,
         },
+        {
+            question:
+                "What is the term for a company that operates in multiple countries?",
+            answers: [
+                "International",
+                "Global",
+                "Multinational",
+                "Transnational",
+            ],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which economic system is based on supply and demand?",
+            answers: ["Socialism", "Capitalism", "Communism", "Feudalism"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Who is the CEO of Tesla as of 2023?",
+            answers: ["Elon Musk", "Jeff Bezos", "Mark Zuckerberg", "Tim Cook"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What does ROI stand for?",
+            answers: [
+                "Return on Investment",
+                "Rate of Interest",
+                "Revenue on Investment",
+                "Return of Interest",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which company is known for its search engine?",
+            answers: ["Apple", "Microsoft", "Google", "Amazon"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What does EBITDA stand for?",
+            answers: [
+                "Earnings Before Interest, Taxes, Depreciation, and Amortization",
+                "Earnings Before Income, Taxes, Depreciation, and Amortization",
+                "Earnings Before Interest, Taxes, Depreciation, and Acquisition",
+                "Earnings Before Income, Taxes, Depreciation, and Acquisition",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question:
+                "Which company is known for its slogan 'Think Different'?",
+            answers: ["Google", "Microsoft", "Apple", "IBM"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What does P&L stand for in business?",
+            answers: [
+                "Profit and Loss",
+                "Purchase and Lease",
+                "Price and List",
+                "Production and Logistics",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which company is known for the slogan 'I'm Lovin' It'?",
+            answers: ["Burger King", "KFC", "McDonald's", "Subway"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the term for buying and selling goods online?",
+            answers: ["E-trade", "E-commerce", "E-business", "E-market"],
+            correctAnswer: 1,
+        },
     ],
 };
 
-export const FOOD_AND_COOKING = {
+export const COOKING = {
     gradient: "from-rose-500 to-orange-300",
     questions: [
         {
@@ -1214,11 +2101,6 @@ export const FOOD_AND_COOKING = {
             question: "What is the national dish of Spain?",
             answers: ["Paella", "Sushi", "Tacos", "Pizza"],
             correctAnswer: 0,
-        },
-        {
-            question: "Which fruit is known as the 'king of fruits'?",
-            answers: ["Apple", "Banana", "Mango", "Durian"],
-            correctAnswer: 2,
         },
         {
             question:
@@ -1257,6 +2139,66 @@ export const FOOD_AND_COOKING = {
             question: "Which country is the origin of the croissant?",
             answers: ["France", "Italy", "Austria", "Belgium"],
             correctAnswer: 2,
+        },
+        {
+            question:
+                "What is the main ingredient in a traditional Italian pesto?",
+            answers: ["Tomatoes", "Basil", "Parsley", "Cilantro"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which type of pasta is shaped like small rice grains?",
+            answers: ["Fusilli", "Orzo", "Penne", "Spaghetti"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the main ingredient in tofu?",
+            answers: ["Soybeans", "Chickpeas", "Lentils", "Black Beans"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which fruit is known as the 'king of fruits'?",
+            answers: ["Apple", "Mango", "Banana", "Orange"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "What type of pastry is used to make a traditional croissant?",
+            answers: [
+                "Puff Pastry",
+                "Filo Pastry",
+                "Shortcrust Pastry",
+                "Choux Pastry",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            question: "Which country is the origin of the baguette?",
+            answers: ["Italy", "Spain", "France", "Germany"],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "What is the main ingredient in a traditional Greek tzatziki?",
+            answers: ["Tomatoes", "Cucumbers", "Eggplant", "Olives"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "What is the primary ingredient in a traditional Mexican mole sauce?",
+            answers: ["Tomatoes", "Chilies", "Chocolate", "Peanuts"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Which cheese is traditionally used in a Caprese salad?",
+            answers: ["Cheddar", "Mozzarella", "Feta", "Gouda"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "What is the main ingredient in a traditional Japanese miso soup?",
+            answers: ["Soybeans", "Rice", "Barley", "Wheat"],
+            correctAnswer: 0,
         },
     ],
 };
@@ -1343,6 +2285,70 @@ export const HEALTH = {
             question: "Which hormone regulates blood sugar levels?",
             answers: ["Insulin", "Adrenaline", "Thyroxine", "Cortisol"],
             correctAnswer: 0,
+        },
+        {
+            question:
+                "What is the normal body temperature for a human in Celsius?",
+            answers: ["35.5°C", "36.1°C", "36.5°C", "37°C"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Which vitamin is essential for blood clotting?",
+            answers: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin K"],
+            correctAnswer: 3,
+        },
+        {
+            question: "What is the main function of red blood cells?",
+            answers: [
+                "Fight infections",
+                "Carry oxygen",
+                "Clot blood",
+                "Produce antibodies",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            question: "Which organ is responsible for filtering blood?",
+            answers: ["Heart", "Liver", "Kidney", "Lungs"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What is the main component of bones?",
+            answers: ["Calcium", "Potassium", "Iron", "Magnesium"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the largest artery in the human body?",
+            answers: ["Carotid", "Femoral", "Aorta", "Pulmonary"],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "What condition is characterized by high blood sugar levels?",
+            answers: ["Anemia", "Diabetes", "Hypertension", "Arthritis"],
+            correctAnswer: 1,
+        },
+        {
+            question:
+                "Which nutrient is essential for building and repairing tissues?",
+            answers: ["Proteins", "Carbohydrates", "Fats", "Vitamins"],
+            correctAnswer: 0,
+        },
+        {
+            question: "What is the main function of white blood cells?",
+            answers: [
+                "Carry oxygen",
+                "Produce energy",
+                "Fight infections",
+                "Clot blood",
+            ],
+            correctAnswer: 2,
+        },
+        {
+            question:
+                "Which mineral is important for maintaining healthy vision?",
+            answers: ["Calcium", "Iron", "Magnesium", "Zinc"],
+            correctAnswer: 3,
         },
     ],
 };
