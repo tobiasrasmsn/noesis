@@ -46,7 +46,7 @@ export default function QuizPage({ params }: Props) {
     useEffect(() => {
         if (topic && typeof topic === "string") {
             const quizData = (quizzes as any)[topic.toUpperCase()];
-            const topicData = TOPICS.find((t) => t.topic.toLowerCase() === topic.toLowerCase());
+            const topicData = TOPICS.find((t) => t.title.toLowerCase() === topic.toLowerCase());
             if (quizData) {
                 const shuffledQuestions = shuffleArray<Question>(quizData.questions);
                 setQuiz({
