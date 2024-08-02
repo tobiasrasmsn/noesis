@@ -33,7 +33,7 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
             setTimeout(() => {
                 setIsSelected(false);
                 router.push(`/quiz/${title}`);
-            }, 500);
+            }, 750);
         },
         [title, router]
     );
