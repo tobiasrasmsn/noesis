@@ -81,11 +81,11 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
                 setTimeout(() => {
                     setShowLoading(false);
                     setIsSelected(false);
-                    router.push(`/quiz/${topic}`);
+                    router.push(`/quiz/${title}`);
                 }, 1500);
             }, 1000);
         },
-        [topic, router]
+        [title, router]
     );
 
     return (

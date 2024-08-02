@@ -15,7 +15,7 @@ export default function Footer() {
 
                     <Link
                         href={"https://buymeacoffee.com/tobiasr"}
-                        className="text-[16.5px]  text-gray-400 duration-500 hover:scale-105 hover:text-zinc-100 drop-shadow-md hover:drop-shadow-[0_4px_14px_0_rgb(0,118,255,39%)]"
+                        className="text-[16.5px]  text-zinc-400 duration-500 hover:scale-105 hover:text-zinc-100 drop-shadow-md hover:drop-shadow-[0_4px_14px_0_rgb(0,118,255,39%)]"
                     >
                         Made with <span className="animate-pulse">❤️‍🔥</span> by Tobias
                     </Link>
@@ -23,24 +23,17 @@ export default function Footer() {
                 <nav className="flex items-center space-x-6 mt-4 md:mt-0">
                     <Link
                         href="/"
-                        className="text-sm font-medium hover:text-gray-300 transition-colors"
+                        className="text-sm font-medium hover:text-zinc-300 transition-colors"
                         prefetch={false}
                     >
                         Home
                     </Link>
                     <Link
-                        href="https://www.aretestudio.no/"
-                        className="text-sm font-medium hover:text-gray-300 transition-colors"
-                        prefetch={false}
-                    >
-                        Need a website?
-                    </Link>
-                    <Link
                         href="https://buymeacoffee.com/tobiasr"
-                        className="text-sm font-medium hover:text-gray-300 transition-colors"
+                        className="text-sm font-medium hover:text-zinc-300 transition-colors"
                         prefetch={false}
                     >
-                        Support me
+                        Donate
                     </Link>
                 </nav>
             </div>
