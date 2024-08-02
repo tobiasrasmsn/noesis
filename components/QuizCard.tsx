@@ -13,54 +13,6 @@ interface QuizCardProps {
     dragOffset: number;
 }
 
-const Loader = () => (
-    <motion.div
-        animate={{
-            scale: [1, 2, 2, 1, 1],
-            rotate: [0, 0, 270, 270, 0],
-            borderRadius: ["0%", "0%", "50%", "50%", "0%"],
-            backgroundColor: [
-                "rgba(228, 228, 231, 0)",
-                "rgba(228, 228, 231, 0)",
-                "rgba(228, 228, 231, 1)",
-                "rgba(228, 228, 231, 1)",
-                "rgba(228, 228, 231, 0)",
-            ],
-            borderWidth: ["4px", "4px", "0px", "0px", "4px"],
-            borderColor: [
-                "rgb(228, 228, 231)",
-                "rgb(228, 228, 231)",
-                "rgba(228, 228, 231, 0)",
-                "rgba(228, 228, 231, 0)",
-                "rgb(228, 228, 231)",
-            ],
-        }}
-        transition={{
-            duration: 3,
-            ease: "easeInOut",
-            times: [0, 0.2, 0.5, 0.8, 1],
-            repeat: Infinity,
-            repeatDelay: 1,
-        }}
-        className="w-16 h-16 border-solid"
-    >
-        <motion.div
-            animate={{
-                opacity: [0, 1, 1, 1, 0],
-                scale: [0.5, 1, 1, 1, 0.5],
-            }}
-            transition={{
-                duration: 3,
-                ease: "easeInOut",
-                times: [0, 0.2, 0.5, 0.8, 1],
-                repeat: Infinity,
-                repeatDelay: 1,
-            }}
-            className="w-full h-full flex items-center justify-center text-zinc-950 font-bold"
-        ></motion.div>
-    </motion.div>
-);
-
 export default function QuizCard({ topic, title, description, color }: QuizCardProps) {
     const [isSelected, setIsSelected] = useState(false);
     const [showLoading, setShowLoading] = useState(false);
@@ -77,13 +29,12 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
             });
             setIsSelected(true);
             setShowLoading(true);
+
             setTimeout(() => {
-                setTimeout(() => {
-                    setShowLoading(false);
-                    setIsSelected(false);
-                    router.push(`/quiz/${title}`);
-                }, 1500);
-            }, 1000);
+                setShowLoading(false);
+                setIsSelected(false);
+                router.push(`/quiz/${title}`);
+            }, 550);
         },
         [title, router]
     );
@@ -126,9 +77,7 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
                                 transition={{ duration: 1, ease: "easeInOut" }}
                                 className={`fixed top-0 left-0 w-screen h-screen bg-gradient-to-br from-${color}-400 to-${color}-600 flex items-center justify-center`}
                                 style={{ zIndex: 9999 }}
-                            >
-                                {showLoading && <Loader />}
-                            </motion.div>
+                            ></motion.div>
                         )}
                     </AnimatePresence>,
                     document.body

@@ -54,7 +54,7 @@ export default function QuizPage({ params }: Props) {
                     gradient: `from-${topicData?.color}-400 to-${topicData?.color}-600`,
                 });
                 setRandomizedQuestions(shuffledQuestions);
-                setTimeout(() => setLoading(false), 2000);
+                setTimeout(() => setLoading(false), 500);
             } else {
                 router.push("/");
             }
