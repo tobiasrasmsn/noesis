@@ -29,12 +29,13 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
             });
             setIsSelected(true);
             setShowLoading(true);
-
             setTimeout(() => {
+                setTimeout(() => {
+                    setIsSelected(false);
+                    router.push(`/quiz/${title}`);
+                }, 500);
                 setShowLoading(false);
-                setIsSelected(false);
-                router.push(`/quiz/${title}`);
-            }, 550);
+            }, 500);
         },
         [title, router]
     );
