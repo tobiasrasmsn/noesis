@@ -1,0 +1,92 @@
+export const TOPICS = [
+    {
+        topic: "space",
+        title: "space",
+        description: "Explore the mysteries of the cosmos and beyond.",
+        color: "indigo",
+    },
+    {
+        topic: "history",
+        title: "history",
+        description: "Dive into the events that shaped our world.",
+        color: "yellow",
+    },
+    {
+        topic: "science",
+        title: "science",
+        description: "Test your knowledge on scientific discoveries and theories.",
+        color: "blue",
+    },
+    {
+        topic: "tech",
+        title: "technology",
+        description: "Stay updated with the latest advancements in tech.",
+        color: "gray",
+    },
+    {
+        topic: "music",
+        title: "music",
+        description: "Challenge your understanding of music genres and history.",
+        color: "purple",
+    },
+    {
+        topic: "movies",
+        title: "movies",
+        description: "Show off your film knowledge from classics to modern hits.",
+        color: "pink",
+    },
+    {
+        topic: "sports",
+        title: "sports",
+        description: "Score big with your sports trivia prowess.",
+        color: "green",
+    },
+    {
+        topic: "art",
+        title: "art",
+        description: "Appreciate the beauty and history of artistic expression.",
+        color: "red",
+    },
+    {
+        topic: "lit.",
+        title: "literature",
+        description: "Uncover the secrets of famous works and authors.",
+        color: "orange",
+    },
+    {
+        topic: "geo.",
+        title: "geography",
+        description: "Navigate the world through geographical knowledge.",
+        color: "teal",
+    },
+    {
+        topic: "nature",
+        title: "nature",
+        description: "Discover the wonders of the natural world.",
+        color: "lime",
+    },
+    {
+        topic: "myth",
+        title: "mythology",
+        description: "Explore myths and legends from various cultures.",
+        color: "amber",
+    },
+    {
+        topic: "business",
+        title: "business",
+        description: "Understand the fundamentals and trends in business.",
+        color: "sky",
+    },
+    {
+        topic: "food",
+        title: "cooking",
+        description: "Cook up some trivia on culinary arts.",
+        color: "rose",
+    },
+    {
+        topic: "health",
+        title: "health",
+        description: "Stay informed on health and wellness topics.",
+        color: "emerald",
+    },
+];

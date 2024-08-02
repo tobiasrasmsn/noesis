@@ -3,7 +3,9 @@
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import * as quizzes from "@/constants/quizzes";
+import { TOPICS } from "@/constants/topics";
 import { motion, AnimatePresence } from "framer-motion";
+import confetti from "canvas-confetti";
 
 interface Question {
     question: string;
@@ -33,9 +35,7 @@ export default function QuizPage({ params }: Props) {
     const router = useRouter();
     const topic = params.topic;
     const [quiz, setQuiz] = useState<QuizProps | null>(null);
-    const [randomizedQuestions, setRandomizedQuestions] = useState<Question[]>(
-        []
-    );
+    const [randomizedQuestions, setRandomizedQuestions] = useState<Question[]>([]);
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
     const [showResult, setShowResult] = useState(false);
@@ -46,13 +46,12 @@ export default function QuizPage({ params }: Props) {
     useEffect(() => {
         if (topic && typeof topic === "string") {
             const quizData = (quizzes as any)[topic.toUpperCase()];
+            const topicData = TOPICS.find((t) => t.topic.toLowerCase() === topic.toLowerCase());
             if (quizData) {
-                const shuffledQuestions = shuffleArray<Question>(
-                    quizData.questions
-                );
+                const shuffledQuestions = shuffleArray<Question>(quizData.questions);
                 setQuiz({
                     questions: shuffledQuestions,
-                    gradient: quizData.gradient || "from-zinc-500 to-zinc-700",
+                    gradient: `from-${topicData?.color}-400 to-${topicData?.color}-600`,
                 });
                 setRandomizedQuestions(shuffledQuestions);
                 setTimeout(() => setLoading(false), 2000);
@@ -65,12 +64,15 @@ export default function QuizPage({ params }: Props) {
     const handleAnswer = (answerIndex: number) => {
         if (quiz && selectedAnswer === null) {
             setSelectedAnswer(answerIndex);
-            const correct =
-                answerIndex ===
-                randomizedQuestions[currentQuestion].correctAnswer;
+            const correct = answerIndex === randomizedQuestions[currentQuestion].correctAnswer;
             setIsCorrect(correct);
             if (correct) {
                 setScore(score + 1);
+                confetti({
+                    particleCount: 100,
+                    spread: 70,
+                    origin: { y: 0.6 },
+                });
             }
 
             setTimeout(() => {
@@ -99,16 +101,13 @@ export default function QuizPage({ params }: Props) {
 
     const getButtonColor = (index: number) => {
         if (selectedAnswer === null) return "bg-zinc-700 hover:bg-zinc-600";
-        if (index === randomizedQuestions[currentQuestion].correctAnswer)
-            return "bg-green-500 hover:bg-green-600";
+        if (index === randomizedQuestions[currentQuestion].correctAnswer) return "bg-green-500 hover:bg-green-600";
         if (index === selectedAnswer) return "bg-red-500 hover:bg-red-600";
         return "bg-zinc-700 hover:bg-zinc-600";
     };
 
     return (
-        <div
-            className={`min-h-screen bg-zinc-900 text-white flex flex-col items-center justify-center p-4`}
-        >
+        <div className={`min-h-screen bg-zinc-900 text-white flex flex-col items-center justify-center p-4`}>
             <AnimatePresence>
                 {loading ? (
                     <motion.div
@@ -141,25 +140,15 @@ export default function QuizPage({ params }: Props) {
                         transition={{ duration: 0.5 }}
                         className="w-full max-w-md"
                     >
-                        <h1 className="text-3xl font-bold mb-8 capitalize">
-                            {topic} Quiz
-                        </h1>
+                        <h1 className="text-3xl font-bold mb-8 capitalize">{topic} Quiz</h1>
                         {!showResult ? (
                             <div className="w-full max-w-md">
                                 <h2 className="text-xl mb-4">
-                                    Question {currentQuestion + 1} of{" "}
-                                    {randomizedQuestions.length}
+                                    Question {currentQuestion + 1} of {randomizedQuestions.length}
                                 </h2>
-                                <p className="mb-4">
-                                    {
-                                        randomizedQuestions[currentQuestion]
-                                            .question
-                                    }
-                                </p>
+                                <p className="mb-4">{randomizedQuestions[currentQuestion].question}</p>
                                 <div className="space-y-2">
-                                    {randomizedQuestions[
-                                        currentQuestion
-                                    ].answers.map((answer, index) => (
+                                    {randomizedQuestions[currentQuestion].answers.map((answer, index) => (
                                         <button
                                             key={index}
                                             className={`w-full p-2 rounded transition-colors duration-300 ${getButtonColor(
@@ -175,12 +164,9 @@ export default function QuizPage({ params }: Props) {
                             </div>
                         ) : (
                             <div className="text-center">
-                                <h2 className="text-2xl mb-4">
-                                    Quiz Completed!
-                                </h2>
+                                <h2 className="text-2xl mb-4">Quiz Completed!</h2>
                                 <p className="text-xl mb-4">
-                                    Your score: {score} out of{" "}
-                                    {randomizedQuestions.length}
+                                    Your score: {score} out of {randomizedQuestions.length}
                                 </p>
                                 <button
                                     className="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded"

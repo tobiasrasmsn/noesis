@@ -22,8 +22,7 @@ export const SPACE = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the name of the first man-made satellite launched into space?",
+            question: "What is the name of the first man-made satellite launched into space?",
             answers: ["Sputnik", "Apollo", "Explorer", "Hubble"],
             correctAnswer: 0,
         },
@@ -34,12 +33,7 @@ export const SPACE = {
         },
         {
             question: "What is the closest star to Earth?",
-            answers: [
-                "Alpha Centauri",
-                "Betelgeuse",
-                "Proxima Centauri",
-                "Sirius",
-            ],
+            answers: ["Alpha Centauri", "Betelgeuse", "Proxima Centauri", "Sirius"],
             correctAnswer: 2,
         },
         {
@@ -53,8 +47,7 @@ export const SPACE = {
             correctAnswer: 1,
         },
         {
-            question:
-                "What planet is known as the Morning Star or the Evening Star?",
+            question: "What planet is known as the Morning Star or the Evening Star?",
             answers: ["Mars", "Jupiter", "Venus", "Saturn"],
             correctAnswer: 2,
         },
@@ -64,25 +57,13 @@ export const SPACE = {
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the name of the first human to journey into outer space?",
-            answers: [
-                "Neil Armstrong",
-                "Buzz Aldrin",
-                "Yuri Gagarin",
-                "John Glenn",
-            ],
+            question: "What is the name of the first human to journey into outer space?",
+            answers: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
             correctAnswer: 2,
         },
         {
-            question:
-                "What is the name of the first American astronaut to orbit Earth?",
-            answers: [
-                "Alan Shepard",
-                "John Glenn",
-                "Neil Armstrong",
-                "Buzz Aldrin",
-            ],
+            question: "What is the name of the first American astronaut to orbit Earth?",
+            answers: ["Alan Shepard", "John Glenn", "Neil Armstrong", "Buzz Aldrin"],
             correctAnswer: 1,
         },
         {
@@ -96,8 +77,7 @@ export const SPACE = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What is the name of the rover that landed on Mars in 2021?",
+            question: "What is the name of the rover that landed on Mars in 2021?",
             answers: ["Curiosity", "Spirit", "Opportunity", "Perseverance"],
             correctAnswer: 3,
         },
@@ -107,19 +87,12 @@ export const SPACE = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What phenomenon occurs when the Moon passes directly between the Earth and the Sun?",
-            answers: [
-                "Lunar Eclipse",
-                "Solar Eclipse",
-                "New Moon",
-                "Full Moon",
-            ],
+            question: "What phenomenon occurs when the Moon passes directly between the Earth and the Sun?",
+            answers: ["Lunar Eclipse", "Solar Eclipse", "New Moon", "Full Moon"],
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the name of the dwarf planet located in the asteroid belt?",
+            question: "What is the name of the dwarf planet located in the asteroid belt?",
             answers: ["Pluto", "Ceres", "Eris", "Haumea"],
             correctAnswer: 1,
         },
@@ -151,22 +124,12 @@ export const HISTORY = {
         },
         {
             question: "Who was the first President of the United States?",
-            answers: [
-                "Thomas Jefferson",
-                "John Adams",
-                "George Washington",
-                "Benjamin Franklin",
-            ],
+            answers: ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
             correctAnswer: 2,
         },
         {
             question: "Who was the second President of the United States?",
-            answers: [
-                "George Washington",
-                "John Adams",
-                "Thomas Jefferson",
-                "James Madison",
-            ],
+            answers: ["George Washington", "John Adams", "Thomas Jefferson", "James Madison"],
             correctAnswer: 1,
         },
         {
@@ -176,12 +139,7 @@ export const HISTORY = {
         },
         {
             question: "Who was the British Prime Minister during World War II?",
-            answers: [
-                "Neville Chamberlain",
-                "Winston Churchill",
-                "Clement Attlee",
-                "Anthony Eden",
-            ],
+            answers: ["Neville Chamberlain", "Winston Churchill", "Clement Attlee", "Anthony Eden"],
             correctAnswer: 1,
         },
         {
@@ -191,22 +149,12 @@ export const HISTORY = {
         },
         {
             question: "Who discovered America in 1492?",
-            answers: [
-                "Vasco da Gama",
-                "Christopher Columbus",
-                "Ferdinand Magellan",
-                "Amerigo Vespucci",
-            ],
+            answers: ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "Amerigo Vespucci"],
             correctAnswer: 1,
         },
         {
             question: "What was the main cause of the French Revolution?",
-            answers: [
-                "Economic crisis",
-                "Religious conflict",
-                "Territorial disputes",
-                "Cultural differences",
-            ],
+            answers: ["Economic crisis", "Religious conflict", "Territorial disputes", "Cultural differences"],
             correctAnswer: 0,
         },
         {
@@ -226,23 +174,12 @@ export const HISTORY = {
         },
         {
             question: "What wall was built to separate East and West Berlin?",
-            answers: [
-                "Hadrian's Wall",
-                "Berlin Wall",
-                "Great Wall of China",
-                "Western Wall",
-            ],
+            answers: ["Hadrian's Wall", "Berlin Wall", "Great Wall of China", "Western Wall"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Who was the first female Prime Minister of the United Kingdom?",
-            answers: [
-                "Margaret Thatcher",
-                "Theresa May",
-                "Angela Merkel",
-                "Indira Gandhi",
-            ],
+            question: "Who was the first female Prime Minister of the United Kingdom?",
+            answers: ["Margaret Thatcher", "Theresa May", "Angela Merkel", "Indira Gandhi"],
             correctAnswer: 0,
         },
         {
@@ -251,30 +188,18 @@ export const HISTORY = {
             correctAnswer: 2,
         },
         {
-            question:
-                "Who was the leader of the Soviet Union during World War II?",
-            answers: [
-                "Vladimir Lenin",
-                "Joseph Stalin",
-                "Nikita Khrushchev",
-                "Leonid Brezhnev",
-            ],
+            question: "Who was the leader of the Soviet Union during World War II?",
+            answers: ["Vladimir Lenin", "Joseph Stalin", "Nikita Khrushchev", "Leonid Brezhnev"],
             correctAnswer: 1,
         },
         {
-            question:
-                "What was the name of the ship that brought the Pilgrims to America in 1620?",
+            question: "What was the name of the ship that brought the Pilgrims to America in 1620?",
             answers: ["Mayflower", "Santa Maria", "Endeavour", "Discovery"],
             correctAnswer: 0,
         },
         {
             question: "Who was the first emperor of China?",
-            answers: [
-                "Qin Shi Huang",
-                "Liu Bang",
-                "Kublai Khan",
-                "Sun Yat-sen",
-            ],
+            answers: ["Qin Shi Huang", "Liu Bang", "Kublai Khan", "Sun Yat-sen"],
             correctAnswer: 0,
         },
         {
@@ -283,19 +208,13 @@ export const HISTORY = {
             correctAnswer: 3,
         },
         {
-            question:
-                "What was the name of the ancient trade route connecting the East and West?",
+            question: "What was the name of the ancient trade route connecting the East and West?",
             answers: ["Silk Road", "Royal Road", "Amber Road", "Incense Route"],
             correctAnswer: 0,
         },
         {
             question: "Who was the first person to circumnavigate the globe?",
-            answers: [
-                "Christopher Columbus",
-                "Ferdinand Magellan",
-                "Vasco da Gama",
-                "James Cook",
-            ],
+            answers: ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "James Cook"],
             correctAnswer: 1,
         },
         {
@@ -304,14 +223,8 @@ export const HISTORY = {
             correctAnswer: 1,
         },
         {
-            question:
-                "Who was the first President of the United States to be impeached?",
-            answers: [
-                "Andrew Johnson",
-                "Richard Nixon",
-                "Bill Clinton",
-                "Donald Trump",
-            ],
+            question: "Who was the first President of the United States to be impeached?",
+            answers: ["Andrew Johnson", "Richard Nixon", "Bill Clinton", "Donald Trump"],
             correctAnswer: 0,
         },
     ],
@@ -326,24 +239,13 @@ export const SCIENCE = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the process by which plants make their own food?",
-            answers: [
-                "Photosynthesis",
-                "Respiration",
-                "Fermentation",
-                "Digestion",
-            ],
+            question: "What is the process by which plants make their own food?",
+            answers: ["Photosynthesis", "Respiration", "Fermentation", "Digestion"],
             correctAnswer: 0,
         },
         {
             question: "What is the powerhouse of the cell?",
-            answers: [
-                "Nucleus",
-                "Mitochondria",
-                "Ribosome",
-                "Endoplasmic Reticulum",
-            ],
+            answers: ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
             correctAnswer: 1,
         },
         {
@@ -353,12 +255,7 @@ export const SCIENCE = {
         },
         {
             question: "What is the speed of light?",
-            answers: [
-                "150,000 km/s",
-                "200,000 km/s",
-                "250,000 km/s",
-                "300,000 km/s",
-            ],
+            answers: ["150,000 km/s", "200,000 km/s", "250,000 km/s", "300,000 km/s"],
             correctAnswer: 3,
         },
         {
@@ -378,12 +275,7 @@ export const SCIENCE = {
         },
         {
             question: "What force keeps us grounded on Earth?",
-            answers: [
-                "Magnetism",
-                "Electromagnetism",
-                "Gravity",
-                "Nuclear Force",
-            ],
+            answers: ["Magnetism", "Electromagnetism", "Gravity", "Nuclear Force"],
             correctAnswer: 2,
         },
         {
@@ -428,12 +320,7 @@ export const SCIENCE = {
         },
         {
             question: "What is the powerhouse of the cell?",
-            answers: [
-                "Nucleus",
-                "Mitochondria",
-                "Ribosome",
-                "Endoplasmic Reticulum",
-            ],
+            answers: ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
             correctAnswer: 1,
         },
         {
@@ -464,12 +351,7 @@ export const TECHNOLOGY = {
     questions: [
         {
             question: "Who is often called the father of computer science?",
-            answers: [
-                "Bill Gates",
-                "Steve Jobs",
-                "Alan Turing",
-                "Mark Zuckerberg",
-            ],
+            answers: ["Bill Gates", "Steve Jobs", "Alan Turing", "Mark Zuckerberg"],
             correctAnswer: 2,
         },
         {
@@ -494,50 +376,32 @@ export const TECHNOLOGY = {
         },
         {
             question: "Who founded Microsoft?",
-            answers: [
-                "Steve Jobs",
-                "Bill Gates",
-                "Mark Zuckerberg",
-                "Elon Musk",
-            ],
+            answers: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the name of the first electronic general-purpose computer?",
+            question: "What is the name of the first electronic general-purpose computer?",
             answers: ["ENIAC", "UNIVAC", "EDVAC", "Z3"],
             correctAnswer: 0,
         },
         {
-            question:
-                "What technology is used to make telephone calls over the Internet possible?",
+            question: "What technology is used to make telephone calls over the Internet possible?",
             answers: ["Bluetooth", "Ethernet", "VoIP", "Wi-Fi"],
             correctAnswer: 2,
         },
         {
             question: "What does RAM stand for?",
-            answers: [
-                "Random Access Memory",
-                "Read-Only Memory",
-                "Read Access Memory",
-                "Random-Only Memory",
-            ],
+            answers: ["Random Access Memory", "Read-Only Memory", "Read Access Memory", "Random-Only Memory"],
             correctAnswer: 0,
         },
         {
-            question:
-                "What programming language is primarily used for web development?",
+            question: "What programming language is primarily used for web development?",
             answers: ["Python", "Java", "C++", "JavaScript"],
             correctAnswer: 3,
         },
         {
             question: "Who is known as the father of the World Wide Web?",
-            answers: [
-                "Vint Cerf",
-                "Tim Berners-Lee",
-                "Robert Kahn",
-                "Marc Andreessen",
-            ],
+            answers: ["Vint Cerf", "Tim Berners-Lee", "Robert Kahn", "Marc Andreessen"],
             correctAnswer: 1,
         },
         {
@@ -551,19 +415,13 @@ export const TECHNOLOGY = {
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the most popular operating system for personal computers?",
+            question: "What is the most popular operating system for personal computers?",
             answers: ["Linux", "MacOS", "Windows", "Unix"],
             correctAnswer: 2,
         },
         {
             question: "What is the main function of a graphics card?",
-            answers: [
-                "Sound Processing",
-                "Network Processing",
-                "Graphical Rendering",
-                "Data Storage",
-            ],
+            answers: ["Sound Processing", "Network Processing", "Graphical Rendering", "Data Storage"],
             correctAnswer: 2,
         },
         {
@@ -592,19 +450,13 @@ export const TECHNOLOGY = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What programming language is known as the backbone of web development?",
+            question: "What programming language is known as the backbone of web development?",
             answers: ["Python", "JavaScript", "Ruby", "PHP"],
             correctAnswer: 1,
         },
         {
             question: "What does USB stand for?",
-            answers: [
-                "Universal Serial Bus",
-                "Universal Service Bus",
-                "Universal System Bus",
-                "Universal Storage Bus",
-            ],
+            answers: ["Universal Serial Bus", "Universal Service Bus", "Universal System Bus", "Universal Storage Bus"],
             correctAnswer: 0,
         },
         {
@@ -613,8 +465,7 @@ export const TECHNOLOGY = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What is the most popular social media platform as of 2023?",
+            question: "What is the most popular social media platform as of 2023?",
             answers: ["Facebook", "Instagram", "Twitter", "TikTok"],
             correctAnswer: 3,
         },
@@ -667,12 +518,7 @@ export const MUSIC = {
         },
         {
             question: "Who is known as the King of Pop?",
-            answers: [
-                "Elvis Presley",
-                "Michael Jackson",
-                "Prince",
-                "Freddie Mercury",
-            ],
+            answers: ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"],
             correctAnswer: 1,
         },
         {
@@ -687,12 +533,7 @@ export const MUSIC = {
         },
         {
             question: "Who is the lead singer of the Rolling Stones?",
-            answers: [
-                "Paul McCartney",
-                "John Lennon",
-                "Mick Jagger",
-                "Freddie Mercury",
-            ],
+            answers: ["Paul McCartney", "John Lennon", "Mick Jagger", "Freddie Mercury"],
             correctAnswer: 2,
         },
         {
@@ -702,17 +543,11 @@ export const MUSIC = {
         },
         {
             question: "Who is known for the song 'Imagine'?",
-            answers: [
-                "Paul McCartney",
-                "George Harrison",
-                "John Lennon",
-                "Ringo Starr",
-            ],
+            answers: ["Paul McCartney", "George Harrison", "John Lennon", "Ringo Starr"],
             correctAnswer: 2,
         },
         {
-            question:
-                "What musical notation symbol indicates the pitch of a note?",
+            question: "What musical notation symbol indicates the pitch of a note?",
             answers: ["Staff", "Clef", "Ledger line", "Time signature"],
             correctAnswer: 1,
         },
@@ -727,19 +562,13 @@ export const MUSIC = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the term for a piece of music written for a single performer?",
+            question: "What is the term for a piece of music written for a single performer?",
             answers: ["Duet", "Quartet", "Solo", "Ensemble"],
             correctAnswer: 2,
         },
         {
             question: "Who is known as the 'Queen of Soul'?",
-            answers: [
-                "Whitney Houston",
-                "Mariah Carey",
-                "Aretha Franklin",
-                "Diana Ross",
-            ],
+            answers: ["Whitney Houston", "Mariah Carey", "Aretha Franklin", "Diana Ross"],
             correctAnswer: 2,
         },
         {
@@ -749,12 +578,7 @@ export const MUSIC = {
         },
         {
             question: "Which band was Freddie Mercury the lead singer of?",
-            answers: [
-                "The Beatles",
-                "Queen",
-                "The Rolling Stones",
-                "Led Zeppelin",
-            ],
+            answers: ["The Beatles", "Queen", "The Rolling Stones", "Led Zeppelin"],
             correctAnswer: 1,
         },
         {
@@ -785,44 +609,22 @@ export const MOVIES = {
     questions: [
         {
             question: "Who directed the movie 'Jurassic Park'?",
-            answers: [
-                "James Cameron",
-                "Steven Spielberg",
-                "George Lucas",
-                "Christopher Nolan",
-            ],
+            answers: ["James Cameron", "Steven Spielberg", "George Lucas", "Christopher Nolan"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which actor played Tony Stark in the Marvel Cinematic Universe?",
-            answers: [
-                "Chris Evans",
-                "Chris Hemsworth",
-                "Mark Ruffalo",
-                "Robert Downey Jr.",
-            ],
+            question: "Which actor played Tony Stark in the Marvel Cinematic Universe?",
+            answers: ["Chris Evans", "Chris Hemsworth", "Mark Ruffalo", "Robert Downey Jr."],
             correctAnswer: 3,
         },
         {
-            question:
-                "Which movie won the first Academy Award for Best Picture?",
-            answers: [
-                "Wings",
-                "The Broadway Melody",
-                "All Quiet on the Western Front",
-                "Cimarron",
-            ],
+            question: "Which movie won the first Academy Award for Best Picture?",
+            answers: ["Wings", "The Broadway Melody", "All Quiet on the Western Front", "Cimarron"],
             correctAnswer: 0,
         },
         {
             question: "Who played the character of Jack in Titanic?",
-            answers: [
-                "Leonardo DiCaprio",
-                "Brad Pitt",
-                "Tom Cruise",
-                "Johnny Depp",
-            ],
+            answers: ["Leonardo DiCaprio", "Brad Pitt", "Tom Cruise", "Johnny Depp"],
             correctAnswer: 0,
         },
         {
@@ -832,101 +634,52 @@ export const MOVIES = {
         },
         {
             question: "Who directed the Lord of the Rings trilogy?",
-            answers: [
-                "George Lucas",
-                "Peter Jackson",
-                "James Cameron",
-                "Ridley Scott",
-            ],
+            answers: ["George Lucas", "Peter Jackson", "James Cameron", "Ridley Scott"],
             correctAnswer: 1,
         },
         {
             question: "Which actor portrayed the Joker in The Dark Knight?",
-            answers: [
-                "Joaquin Phoenix",
-                "Jared Leto",
-                "Jack Nicholson",
-                "Heath Ledger",
-            ],
+            answers: ["Joaquin Phoenix", "Jared Leto", "Jack Nicholson", "Heath Ledger"],
             correctAnswer: 3,
         },
         {
             question: "What is the highest-grossing film of all time?",
-            answers: [
-                "Avatar",
-                "Avengers: Endgame",
-                "Titanic",
-                "Star Wars: The Force Awakens",
-            ],
+            answers: ["Avatar", "Avengers: Endgame", "Titanic", "Star Wars: The Force Awakens"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which film won the Academy Award for Best Picture in 2020?",
-            answers: [
-                "1917",
-                "Joker",
-                "Parasite",
-                "Once Upon a Time in Hollywood",
-            ],
+            question: "Which film won the Academy Award for Best Picture in 2020?",
+            answers: ["1917", "Joker", "Parasite", "Once Upon a Time in Hollywood"],
             correctAnswer: 2,
         },
         {
-            question:
-                "Who starred as the main character in the movie 'Forrest Gump'?",
+            question: "Who starred as the main character in the movie 'Forrest Gump'?",
             answers: ["Tom Hanks", "Matt Damon", "Brad Pitt", "Johnny Depp"],
             correctAnswer: 0,
         },
         {
             question: "Which film features the character 'E.T.'?",
-            answers: [
-                "Close Encounters of the Third Kind",
-                "E.T. the Extra-Terrestrial",
-                "Jaws",
-                "War of the Worlds",
-            ],
+            answers: ["Close Encounters of the Third Kind", "E.T. the Extra-Terrestrial", "Jaws", "War of the Worlds"],
             correctAnswer: 1,
         },
         {
             question: "Who directed the movie 'Inception'?",
-            answers: [
-                "Steven Spielberg",
-                "Christopher Nolan",
-                "Quentin Tarantino",
-                "James Cameron",
-            ],
+            answers: ["Steven Spielberg", "Christopher Nolan", "Quentin Tarantino", "James Cameron"],
             correctAnswer: 1,
         },
         {
             question: "Who directed the movie 'Pulp Fiction'?",
-            answers: [
-                "Steven Spielberg",
-                "Quentin Tarantino",
-                "Martin Scorsese",
-                "Francis Ford Coppola",
-            ],
+            answers: ["Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Francis Ford Coppola"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which actor starred as the main character in 'The Matrix'?",
-            answers: [
-                "Brad Pitt",
-                "Keanu Reeves",
-                "Tom Cruise",
-                "Leonardo DiCaprio",
-            ],
+            question: "Which actor starred as the main character in 'The Matrix'?",
+            answers: ["Brad Pitt", "Keanu Reeves", "Tom Cruise", "Leonardo DiCaprio"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which film won the Academy Award for Best Picture in 1994?",
-            answers: [
-                "Pulp Fiction",
-                "Forrest Gump",
-                "Shawshank Redemption",
-                "Four Weddings and a Funeral",
-            ],
+            question: "Which film won the Academy Award for Best Picture in 1994?",
+            answers: ["Pulp Fiction", "Forrest Gump", "Shawshank Redemption", "Four Weddings and a Funeral"],
             correctAnswer: 1,
         },
         {
@@ -935,14 +688,8 @@ export const MOVIES = {
             correctAnswer: 1,
         },
         {
-            question:
-                "Who played the character of Jack Sparrow in 'Pirates of the Caribbean'?",
-            answers: [
-                "Johnny Depp",
-                "Orlando Bloom",
-                "Keira Knightley",
-                "Geoffrey Rush",
-            ],
+            question: "Who played the character of Jack Sparrow in 'Pirates of the Caribbean'?",
+            answers: ["Johnny Depp", "Orlando Bloom", "Keira Knightley", "Geoffrey Rush"],
             correctAnswer: 0,
         },
         {
@@ -952,12 +699,7 @@ export const MOVIES = {
         },
         {
             question: "Who directed the movie 'Schindler's List'?",
-            answers: [
-                "Steven Spielberg",
-                "James Cameron",
-                "Quentin Tarantino",
-                "Martin Scorsese",
-            ],
+            answers: ["Steven Spielberg", "James Cameron", "Quentin Tarantino", "Martin Scorsese"],
             correctAnswer: 0,
         },
         {
@@ -966,25 +708,13 @@ export const MOVIES = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the name of the second film in the 'Lord of the Rings' trilogy?",
-            answers: [
-                "The Fellowship of the Ring",
-                "The Two Towers",
-                "The Return of the King",
-                "The Hobbit",
-            ],
+            question: "What is the name of the second film in the 'Lord of the Rings' trilogy?",
+            answers: ["The Fellowship of the Ring", "The Two Towers", "The Return of the King", "The Hobbit"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which film won the Academy Award for Best Picture in 2021?",
-            answers: [
-                "Mank",
-                "Nomadland",
-                "The Father",
-                "Judas and the Black Messiah",
-            ],
+            question: "Which film won the Academy Award for Best Picture in 2021?",
+            answers: ["Mank", "Nomadland", "The Father", "Judas and the Black Messiah"],
             correctAnswer: 1,
         },
     ],
@@ -1079,14 +809,12 @@ export const SPORTS = {
             correctAnswer: 1,
         },
         {
-            question:
-                "In which sport do players use mallets to hit a ball through hoops?",
+            question: "In which sport do players use mallets to hit a ball through hoops?",
             answers: ["Polo", "Croquet", "Golf", "Hockey"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Who holds the record for the most home runs in a single MLB season?",
+            question: "Who holds the record for the most home runs in a single MLB season?",
             answers: ["Babe Ruth", "Hank Aaron", "Barry Bonds", "Mark McGwire"],
             correctAnswer: 2,
         },
@@ -1101,8 +829,7 @@ export const SPORTS = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the highest possible score in a single game of ten-pin bowling?",
+            question: "What is the highest possible score in a single game of ten-pin bowling?",
             answers: ["200", "250", "300", "350"],
             correctAnswer: 2,
         },
@@ -1114,12 +841,7 @@ export const ART = {
     questions: [
         {
             question: "Who painted the Mona Lisa?",
-            answers: [
-                "Vincent van Gogh",
-                "Pablo Picasso",
-                "Leonardo da Vinci",
-                "Michelangelo",
-            ],
+            answers: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
             correctAnswer: 2,
         },
         {
@@ -1128,54 +850,28 @@ export const ART = {
             correctAnswer: 2,
         },
         {
-            question:
-                "Which artist is famous for his painting 'The Starry Night'?",
-            answers: [
-                "Pablo Picasso",
-                "Claude Monet",
-                "Vincent van Gogh",
-                "Rembrandt",
-            ],
+            question: "Which artist is famous for his painting 'The Starry Night'?",
+            answers: ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Rembrandt"],
             correctAnswer: 2,
         },
         {
             question: "Who painted the Sistine Chapel ceiling?",
-            answers: [
-                "Leonardo da Vinci",
-                "Raphael",
-                "Michelangelo",
-                "Caravaggio",
-            ],
+            answers: ["Leonardo da Vinci", "Raphael", "Michelangelo", "Caravaggio"],
             correctAnswer: 2,
         },
         {
             question: "Which artist is known for the sculpture 'The Thinker'?",
-            answers: [
-                "Auguste Rodin",
-                "Henry Moore",
-                "Constantin Brâncuși",
-                "Gian Lorenzo Bernini",
-            ],
+            answers: ["Auguste Rodin", "Henry Moore", "Constantin Brâncuși", "Gian Lorenzo Bernini"],
             correctAnswer: 0,
         },
         {
             question: "Which famous artist cut off his own ear?",
-            answers: [
-                "Pablo Picasso",
-                "Claude Monet",
-                "Vincent van Gogh",
-                "Paul Gauguin",
-            ],
+            answers: ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Paul Gauguin"],
             correctAnswer: 2,
         },
         {
             question: "Who painted 'The Persistence of Memory'?",
-            answers: [
-                "René Magritte",
-                "Salvador Dalí",
-                "Joan Miró",
-                "Max Ernst",
-            ],
+            answers: ["René Magritte", "Salvador Dalí", "Joan Miró", "Max Ernst"],
             correctAnswer: 1,
         },
         {
@@ -1185,56 +881,28 @@ export const ART = {
             correctAnswer: 1,
         },
         {
-            question:
-                "Who is known for the painting 'Girl with a Pearl Earring'?",
-            answers: [
-                "Johannes Vermeer",
-                "Rembrandt",
-                "Jan Steen",
-                "Frans Hals",
-            ],
+            question: "Who is known for the painting 'Girl with a Pearl Earring'?",
+            answers: ["Johannes Vermeer", "Rembrandt", "Jan Steen", "Frans Hals"],
             correctAnswer: 0,
         },
         {
-            question:
-                "Which artist is known for his colorful abstract compositions and is a pioneer of abstract art?",
-            answers: [
-                "Piet Mondrian",
-                "Wassily Kandinsky",
-                "Kazimir Malevich",
-                "Paul Klee",
-            ],
+            question: "Which artist is known for his colorful abstract compositions and is a pioneer of abstract art?",
+            answers: ["Piet Mondrian", "Wassily Kandinsky", "Kazimir Malevich", "Paul Klee"],
             correctAnswer: 1,
         },
         {
             question: "Who painted 'The Birth of Venus'?",
-            answers: [
-                "Leonardo da Vinci",
-                "Michelangelo",
-                "Sandro Botticelli",
-                "Raphael",
-            ],
+            answers: ["Leonardo da Vinci", "Michelangelo", "Sandro Botticelli", "Raphael"],
             correctAnswer: 2,
         },
         {
-            question:
-                "Which artist is known for his series of Water Lilies paintings?",
-            answers: [
-                "Paul Cézanne",
-                "Claude Monet",
-                "Henri Matisse",
-                "Édouard Manet",
-            ],
+            question: "Which artist is known for his series of Water Lilies paintings?",
+            answers: ["Paul Cézanne", "Claude Monet", "Henri Matisse", "Édouard Manet"],
             correctAnswer: 1,
         },
         {
             question: "Who painted 'The Persistence of Memory'?",
-            answers: [
-                "Salvador Dalí",
-                "Pablo Picasso",
-                "Vincent van Gogh",
-                "Claude Monet",
-            ],
+            answers: ["Salvador Dalí", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
             correctAnswer: 0,
         },
         {
@@ -1244,12 +912,7 @@ export const ART = {
         },
         {
             question: "Which artist is known for his blue period?",
-            answers: [
-                "Vincent van Gogh",
-                "Pablo Picasso",
-                "Henri Matisse",
-                "Paul Gauguin",
-            ],
+            answers: ["Vincent van Gogh", "Pablo Picasso", "Henri Matisse", "Paul Gauguin"],
             correctAnswer: 1,
         },
         {
@@ -1259,58 +922,32 @@ export const ART = {
         },
         {
             question: "Which artist is famous for 'The Scream'?",
-            answers: [
-                "Edvard Munch",
-                "Claude Monet",
-                "Paul Cézanne",
-                "Gustav Klimt",
-            ],
+            answers: ["Edvard Munch", "Claude Monet", "Paul Cézanne", "Gustav Klimt"],
             correctAnswer: 0,
         },
         {
             question: "Which art movement did Jackson Pollock belong to?",
-            answers: [
-                "Abstract Expressionism",
-                "Cubism",
-                "Surrealism",
-                "Pop Art",
-            ],
+            answers: ["Abstract Expressionism", "Cubism", "Surrealism", "Pop Art"],
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the name of the art technique that uses small dots to create an image?",
+            question: "What is the name of the art technique that uses small dots to create an image?",
             answers: ["Pointillism", "Cubism", "Surrealism", "Impressionism"],
             correctAnswer: 0,
         },
         {
             question: "Which artist is known for his depictions of ballerinas?",
-            answers: [
-                "Vincent van Gogh",
-                "Claude Monet",
-                "Edgar Degas",
-                "Paul Gauguin",
-            ],
+            answers: ["Vincent van Gogh", "Claude Monet", "Edgar Degas", "Paul Gauguin"],
             correctAnswer: 2,
         },
         {
             question: "What is the title of Leonardo da Vinci's famous mural?",
-            answers: [
-                "The Last Supper",
-                "Mona Lisa",
-                "Vitruvian Man",
-                "Annunciation",
-            ],
+            answers: ["The Last Supper", "Mona Lisa", "Vitruvian Man", "Annunciation"],
             correctAnswer: 0,
         },
         {
             question: "Which artist is known for 'Starry Night'?",
-            answers: [
-                "Claude Monet",
-                "Vincent van Gogh",
-                "Pablo Picasso",
-                "Edvard Munch",
-            ],
+            answers: ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Edvard Munch"],
             correctAnswer: 1,
         },
     ],
@@ -1321,12 +958,7 @@ export const LITERATURE = {
     questions: [
         {
             question: "Who wrote '1984'?",
-            answers: [
-                "George Orwell",
-                "Aldous Huxley",
-                "Ray Bradbury",
-                "H.G. Wells",
-            ],
+            answers: ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
             correctAnswer: 0,
         },
         {
@@ -1336,12 +968,7 @@ export const LITERATURE = {
         },
         {
             question: "Who wrote 'To Kill a Mockingbird'?",
-            answers: [
-                "Harper Lee",
-                "Mark Twain",
-                "Ernest Hemingway",
-                "F. Scott Fitzgerald",
-            ],
+            answers: ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
             correctAnswer: 0,
         },
         {
@@ -1356,180 +983,93 @@ export const LITERATURE = {
         },
         {
             question: "Who wrote 'Moby-Dick'?",
-            answers: [
-                "Herman Melville",
-                "Jules Verne",
-                "Charles Dickens",
-                "Nathaniel Hawthorne",
-            ],
+            answers: ["Herman Melville", "Jules Verne", "Charles Dickens", "Nathaniel Hawthorne"],
             correctAnswer: 0,
         },
         {
             question: "Who is the author of 'Pride and Prejudice'?",
-            answers: [
-                "Emily Brontë",
-                "Jane Austen",
-                "Charlotte Brontë",
-                "George Eliot",
-            ],
+            answers: ["Emily Brontë", "Jane Austen", "Charlotte Brontë", "George Eliot"],
             correctAnswer: 1,
         },
         {
             question: "Which author created the detective Sherlock Holmes?",
-            answers: [
-                "Agatha Christie",
-                "Raymond Chandler",
-                "Arthur Conan Doyle",
-                "Dashiell Hammett",
-            ],
+            answers: ["Agatha Christie", "Raymond Chandler", "Arthur Conan Doyle", "Dashiell Hammett"],
             correctAnswer: 2,
         },
         {
             question:
                 "What is the name of the hobbit played by Elijah Wood in the film adaptation of 'The Lord of the Rings'?",
-            answers: [
-                "Bilbo Baggins",
-                "Frodo Baggins",
-                "Samwise Gamgee",
-                "Meriadoc Brandybuck",
-            ],
+            answers: ["Bilbo Baggins", "Frodo Baggins", "Samwise Gamgee", "Meriadoc Brandybuck"],
             correctAnswer: 1,
         },
         {
             question: "Who wrote 'The Catcher in the Rye'?",
-            answers: [
-                "J.D. Salinger",
-                "F. Scott Fitzgerald",
-                "John Steinbeck",
-                "Ernest Hemingway",
-            ],
+            answers: ["J.D. Salinger", "F. Scott Fitzgerald", "John Steinbeck", "Ernest Hemingway"],
             correctAnswer: 0,
         },
         {
             question: "Who is the author of 'The Great Gatsby'?",
-            answers: [
-                "Ernest Hemingway",
-                "F. Scott Fitzgerald",
-                "William Faulkner",
-                "John Steinbeck",
-            ],
+            answers: ["Ernest Hemingway", "F. Scott Fitzgerald", "William Faulkner", "John Steinbeck"],
             correctAnswer: 1,
         },
         {
             question: "Who wrote 'War and Peace'?",
-            answers: [
-                "Fyodor Dostoevsky",
-                "Leo Tolstoy",
-                "Ivan Turgenev",
-                "Anton Chekhov",
-            ],
+            answers: ["Fyodor Dostoevsky", "Leo Tolstoy", "Ivan Turgenev", "Anton Chekhov"],
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the name of the young heroine in 'Alice's Adventures in Wonderland'?",
+            question: "What is the name of the young heroine in 'Alice's Adventures in Wonderland'?",
             answers: ["Wendy", "Dorothy", "Alice", "Belle"],
             correctAnswer: 2,
         },
         {
             question: "Who wrote 'Brave New World'?",
-            answers: [
-                "George Orwell",
-                "Aldous Huxley",
-                "Ray Bradbury",
-                "H.G. Wells",
-            ],
+            answers: ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
             correctAnswer: 1,
         },
         {
             question: "Which novel starts with the line 'Call me Ishmael'?",
-            answers: [
-                "Moby-Dick",
-                "Pride and Prejudice",
-                "The Great Gatsby",
-                "1984",
-            ],
+            answers: ["Moby-Dick", "Pride and Prejudice", "The Great Gatsby", "1984"],
             correctAnswer: 0,
         },
         {
             question: "Who wrote 'The Picture of Dorian Gray'?",
-            answers: [
-                "Oscar Wilde",
-                "Charles Dickens",
-                "F. Scott Fitzgerald",
-                "Mark Twain",
-            ],
+            answers: ["Oscar Wilde", "Charles Dickens", "F. Scott Fitzgerald", "Mark Twain"],
             correctAnswer: 0,
         },
         {
             question: "Which book series is written by J.K. Rowling?",
-            answers: [
-                "The Hunger Games",
-                "Percy Jackson",
-                "Harry Potter",
-                "Divergent",
-            ],
+            answers: ["The Hunger Games", "Percy Jackson", "Harry Potter", "Divergent"],
             correctAnswer: 2,
         },
         {
             question: "Who wrote 'The Hobbit'?",
-            answers: [
-                "J.R.R. Tolkien",
-                "C.S. Lewis",
-                "George R.R. Martin",
-                "J.K. Rowling",
-            ],
+            answers: ["J.R.R. Tolkien", "C.S. Lewis", "George R.R. Martin", "J.K. Rowling"],
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the title of the second book in the 'Lord of the Rings' series?",
-            answers: [
-                "The Fellowship of the Ring",
-                "The Two Towers",
-                "The Return of the King",
-                "The Silmarillion",
-            ],
+            question: "What is the title of the second book in the 'Lord of the Rings' series?",
+            answers: ["The Fellowship of the Ring", "The Two Towers", "The Return of the King", "The Silmarillion"],
             correctAnswer: 1,
         },
         {
             question: "Who wrote 'Pride and Prejudice'?",
-            answers: [
-                "Emily Brontë",
-                "Jane Austen",
-                "Charlotte Brontë",
-                "George Eliot",
-            ],
+            answers: ["Emily Brontë", "Jane Austen", "Charlotte Brontë", "George Eliot"],
             correctAnswer: 1,
         },
         {
             question: "Which book features the character Atticus Finch?",
-            answers: [
-                "The Great Gatsby",
-                "1984",
-                "To Kill a Mockingbird",
-                "Moby-Dick",
-            ],
+            answers: ["The Great Gatsby", "1984", "To Kill a Mockingbird", "Moby-Dick"],
             correctAnswer: 2,
         },
         {
             question: "Who wrote 'The Brothers Karamazov'?",
-            answers: [
-                "Fyodor Dostoevsky",
-                "Leo Tolstoy",
-                "Anton Chekhov",
-                "Ivan Turgenev",
-            ],
+            answers: ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Ivan Turgenev"],
             correctAnswer: 0,
         },
         {
             question: "Who is the author of 'Crime and Punishment'?",
-            answers: [
-                "Leo Tolstoy",
-                "Fyodor Dostoevsky",
-                "Anton Chekhov",
-                "Ivan Turgenev",
-            ],
+            answers: ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Ivan Turgenev"],
             correctAnswer: 1,
         },
     ],
@@ -1640,12 +1180,7 @@ export const GEOGRAPHY = {
         },
         {
             question: "What is the name of the highest mountain in Africa?",
-            answers: [
-                "Mount Everest",
-                "Mount Kilimanjaro",
-                "Mount Kenya",
-                "Mount Elbrus",
-            ],
+            answers: ["Mount Everest", "Mount Kilimanjaro", "Mount Kenya", "Mount Elbrus"],
             correctAnswer: 1,
         },
         {
@@ -1675,8 +1210,7 @@ export const NATURE = {
             correctAnswer: 0,
         },
         {
-            question:
-                "Which bird is known for its colorful plumage and elaborate courtship displays?",
+            question: "Which bird is known for its colorful plumage and elaborate courtship displays?",
             answers: ["Peacock", "Parrot", "Eagle", "Flamingo"],
             correctAnswer: 0,
         },
@@ -1691,8 +1225,7 @@ export const NATURE = {
             correctAnswer: 1,
         },
         {
-            question:
-                "Which plant is known for its ability to catch and digest insects?",
+            question: "Which plant is known for its ability to catch and digest insects?",
             answers: ["Venus Flytrap", "Sunflower", "Rose", "Tulip"],
             correctAnswer: 0,
         },
@@ -1708,12 +1241,7 @@ export const NATURE = {
         },
         {
             question: "What is the most poisonous animal in the world?",
-            answers: [
-                "Box Jellyfish",
-                "King Cobra",
-                "Poison Dart Frog",
-                "Inland Taipan",
-            ],
+            answers: ["Box Jellyfish", "King Cobra", "Poison Dart Frog", "Inland Taipan"],
             correctAnswer: 2,
         },
         {
@@ -1723,12 +1251,7 @@ export const NATURE = {
         },
         {
             question: "What is the largest species of penguin?",
-            answers: [
-                "Emperor Penguin",
-                "King Penguin",
-                "Adelie Penguin",
-                "Chinstrap Penguin",
-            ],
+            answers: ["Emperor Penguin", "King Penguin", "Adelie Penguin", "Chinstrap Penguin"],
             correctAnswer: 0,
         },
         {
@@ -1742,8 +1265,7 @@ export const NATURE = {
             correctAnswer: 0,
         },
         {
-            question:
-                "Which animal is known for changing its color to blend with its surroundings?",
+            question: "Which animal is known for changing its color to blend with its surroundings?",
             answers: ["Chameleon", "Gecko", "Frog", "Snake"],
             correctAnswer: 0,
         },
@@ -1814,8 +1336,7 @@ export const MYTHOLOGY = {
             correctAnswer: 3,
         },
         {
-            question:
-                "In Egyptian mythology, who is the god of the underworld?",
+            question: "In Egyptian mythology, who is the god of the underworld?",
             answers: ["Ra", "Osiris", "Anubis", "Horus"],
             correctAnswer: 1,
         },
@@ -1895,8 +1416,7 @@ export const MYTHOLOGY = {
             correctAnswer: 2,
         },
         {
-            question:
-                "Which creature has the body of a lion and the head of an eagle?",
+            question: "Which creature has the body of a lion and the head of an eagle?",
             answers: ["Griffin", "Chimera", "Sphinx", "Hydra"],
             correctAnswer: 0,
         },
@@ -1917,8 +1437,7 @@ export const BUSINESS = {
             correctAnswer: 0,
         },
         {
-            question:
-                "Which company has the ticker symbol AAPL on the stock market?",
+            question: "Which company has the ticker symbol AAPL on the stock market?",
             answers: ["Amazon", "Apple", "Alphabet", "Adobe"],
             correctAnswer: 1,
         },
@@ -1939,28 +1458,17 @@ export const BUSINESS = {
         },
         {
             question: "Who is the founder of Amazon?",
-            answers: [
-                "Elon Musk",
-                "Jeff Bezos",
-                "Larry Page",
-                "Mark Zuckerberg",
-            ],
+            answers: ["Elon Musk", "Jeff Bezos", "Larry Page", "Mark Zuckerberg"],
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the term for a market dominated by a single seller?",
+            question: "What is the term for a market dominated by a single seller?",
             answers: ["Monopoly", "Oligopoly", "Monopsony", "Oligopsony"],
             correctAnswer: 0,
         },
         {
             question: "Which company owns the brand 'Marlboro'?",
-            answers: [
-                "Altria",
-                "Philip Morris",
-                "British American Tobacco",
-                "Imperial Brands",
-            ],
+            answers: ["Altria", "Philip Morris", "British American Tobacco", "Imperial Brands"],
             correctAnswer: 1,
         },
         {
@@ -1969,19 +1477,13 @@ export const BUSINESS = {
             correctAnswer: 1,
         },
         {
-            question:
-                "Which term describes the sale of goods in large quantities for resale?",
+            question: "Which term describes the sale of goods in large quantities for resale?",
             answers: ["Retail", "Wholesale", "Direct", "Franchise"],
             correctAnswer: 1,
         },
         {
             question: "Who is the founder of Microsoft?",
-            answers: [
-                "Steve Jobs",
-                "Bill Gates",
-                "Mark Zuckerberg",
-                "Elon Musk",
-            ],
+            answers: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
             correctAnswer: 1,
         },
         {
@@ -2000,14 +1502,8 @@ export const BUSINESS = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What is the term for a company that operates in multiple countries?",
-            answers: [
-                "International",
-                "Global",
-                "Multinational",
-                "Transnational",
-            ],
+            question: "What is the term for a company that operates in multiple countries?",
+            answers: ["International", "Global", "Multinational", "Transnational"],
             correctAnswer: 2,
         },
         {
@@ -2022,12 +1518,7 @@ export const BUSINESS = {
         },
         {
             question: "What does ROI stand for?",
-            answers: [
-                "Return on Investment",
-                "Rate of Interest",
-                "Revenue on Investment",
-                "Return of Interest",
-            ],
+            answers: ["Return on Investment", "Rate of Interest", "Revenue on Investment", "Return of Interest"],
             correctAnswer: 0,
         },
         {
@@ -2046,19 +1537,13 @@ export const BUSINESS = {
             correctAnswer: 0,
         },
         {
-            question:
-                "Which company is known for its slogan 'Think Different'?",
+            question: "Which company is known for its slogan 'Think Different'?",
             answers: ["Google", "Microsoft", "Apple", "IBM"],
             correctAnswer: 2,
         },
         {
             question: "What does P&L stand for in business?",
-            answers: [
-                "Profit and Loss",
-                "Purchase and Lease",
-                "Price and List",
-                "Production and Logistics",
-            ],
+            answers: ["Profit and Loss", "Purchase and Lease", "Price and List", "Production and Logistics"],
             correctAnswer: 0,
         },
         {
@@ -2103,14 +1588,12 @@ export const COOKING = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the main ingredient in a traditional French Ratatouille?",
+            question: "What is the main ingredient in a traditional French Ratatouille?",
             answers: ["Potato", "Eggplant", "Carrot", "Peas"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which spice is known as the most expensive in the world?",
+            question: "Which spice is known as the most expensive in the world?",
             answers: ["Cinnamon", "Nutmeg", "Saffron", "Vanilla"],
             correctAnswer: 2,
         },
@@ -2125,14 +1608,8 @@ export const COOKING = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What type of pastry is used to make a traditional Baklava?",
-            answers: [
-                "Puff Pastry",
-                "Filo Pastry",
-                "Shortcrust Pastry",
-                "Choux Pastry",
-            ],
+            question: "What type of pastry is used to make a traditional Baklava?",
+            answers: ["Puff Pastry", "Filo Pastry", "Shortcrust Pastry", "Choux Pastry"],
             correctAnswer: 1,
         },
         {
@@ -2141,8 +1618,7 @@ export const COOKING = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What is the main ingredient in a traditional Italian pesto?",
+            question: "What is the main ingredient in a traditional Italian pesto?",
             answers: ["Tomatoes", "Basil", "Parsley", "Cilantro"],
             correctAnswer: 1,
         },
@@ -2162,14 +1638,8 @@ export const COOKING = {
             correctAnswer: 1,
         },
         {
-            question:
-                "What type of pastry is used to make a traditional croissant?",
-            answers: [
-                "Puff Pastry",
-                "Filo Pastry",
-                "Shortcrust Pastry",
-                "Choux Pastry",
-            ],
+            question: "What type of pastry is used to make a traditional croissant?",
+            answers: ["Puff Pastry", "Filo Pastry", "Shortcrust Pastry", "Choux Pastry"],
             correctAnswer: 0,
         },
         {
@@ -2178,14 +1648,12 @@ export const COOKING = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What is the main ingredient in a traditional Greek tzatziki?",
+            question: "What is the main ingredient in a traditional Greek tzatziki?",
             answers: ["Tomatoes", "Cucumbers", "Eggplant", "Olives"],
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the primary ingredient in a traditional Mexican mole sauce?",
+            question: "What is the primary ingredient in a traditional Mexican mole sauce?",
             answers: ["Tomatoes", "Chilies", "Chocolate", "Peanuts"],
             correctAnswer: 2,
         },
@@ -2195,8 +1663,7 @@ export const COOKING = {
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the main ingredient in a traditional Japanese miso soup?",
+            question: "What is the main ingredient in a traditional Japanese miso soup?",
             answers: ["Soybeans", "Rice", "Barley", "Wheat"],
             correctAnswer: 0,
         },
@@ -2217,8 +1684,7 @@ export const HEALTH = {
             correctAnswer: 0,
         },
         {
-            question:
-                "Which vitamin is produced when your skin is exposed to sunlight?",
+            question: "Which vitamin is produced when your skin is exposed to sunlight?",
             answers: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
             correctAnswer: 3,
         },
@@ -2233,14 +1699,8 @@ export const HEALTH = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What is the common term for the medical condition 'hypertension'?",
-            answers: [
-                "Low Blood Pressure",
-                "High Blood Pressure",
-                "High Blood Sugar",
-                "Low Blood Sugar",
-            ],
+            question: "What is the common term for the medical condition 'hypertension'?",
+            answers: ["Low Blood Pressure", "High Blood Pressure", "High Blood Sugar", "Low Blood Sugar"],
             correctAnswer: 1,
         },
         {
@@ -2249,14 +1709,12 @@ export const HEALTH = {
             correctAnswer: 1,
         },
         {
-            question:
-                "What is the recommended daily intake of water for an adult?",
+            question: "What is the recommended daily intake of water for an adult?",
             answers: ["1-2 liters", "2-3 liters", "3-4 liters", "4-5 liters"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which condition is characterized by the body's inability to regulate blood sugar levels?",
+            question: "Which condition is characterized by the body's inability to regulate blood sugar levels?",
             answers: ["Anemia", "Diabetes", "Hypertension", "Arthritis"],
             correctAnswer: 1,
         },
@@ -2271,14 +1729,8 @@ export const HEALTH = {
             correctAnswer: 2,
         },
         {
-            question:
-                "Which condition is also known as 'myocardial infarction'?",
-            answers: [
-                "Stroke",
-                "Heart Attack",
-                "Kidney Failure",
-                "Liver Cirrhosis",
-            ],
+            question: "Which condition is also known as 'myocardial infarction'?",
+            answers: ["Stroke", "Heart Attack", "Kidney Failure", "Liver Cirrhosis"],
             correctAnswer: 1,
         },
         {
@@ -2287,8 +1739,7 @@ export const HEALTH = {
             correctAnswer: 0,
         },
         {
-            question:
-                "What is the normal body temperature for a human in Celsius?",
+            question: "What is the normal body temperature for a human in Celsius?",
             answers: ["35.5°C", "36.1°C", "36.5°C", "37°C"],
             correctAnswer: 3,
         },
@@ -2299,12 +1750,7 @@ export const HEALTH = {
         },
         {
             question: "What is the main function of red blood cells?",
-            answers: [
-                "Fight infections",
-                "Carry oxygen",
-                "Clot blood",
-                "Produce antibodies",
-            ],
+            answers: ["Fight infections", "Carry oxygen", "Clot blood", "Produce antibodies"],
             correctAnswer: 1,
         },
         {
@@ -2323,30 +1769,22 @@ export const HEALTH = {
             correctAnswer: 2,
         },
         {
-            question:
-                "What condition is characterized by high blood sugar levels?",
+            question: "What condition is characterized by high blood sugar levels?",
             answers: ["Anemia", "Diabetes", "Hypertension", "Arthritis"],
             correctAnswer: 1,
         },
         {
-            question:
-                "Which nutrient is essential for building and repairing tissues?",
+            question: "Which nutrient is essential for building and repairing tissues?",
             answers: ["Proteins", "Carbohydrates", "Fats", "Vitamins"],
             correctAnswer: 0,
         },
         {
             question: "What is the main function of white blood cells?",
-            answers: [
-                "Carry oxygen",
-                "Produce energy",
-                "Fight infections",
-                "Clot blood",
-            ],
+            answers: ["Carry oxygen", "Produce energy", "Fight infections", "Clot blood"],
             correctAnswer: 2,
         },
         {
-            question:
-                "Which mineral is important for maintaining healthy vision?",
+            question: "Which mineral is important for maintaining healthy vision?",
             answers: ["Calcium", "Iron", "Magnesium", "Zinc"],
             correctAnswer: 3,
         },
