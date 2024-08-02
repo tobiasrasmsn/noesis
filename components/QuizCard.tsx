@@ -29,12 +29,10 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
             });
             setIsSelected(true);
             setShowLoading(true);
+
             setTimeout(() => {
-                setTimeout(() => {
-                    setIsSelected(false);
-                    router.push(`/quiz/${title}`);
-                }, 250);
-                setShowLoading(false);
+                setIsSelected(false);
+                router.push(`/quiz/${title}`);
             }, 500);
         },
         [title, router]
@@ -75,7 +73,7 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
                                 exit={{
                                     clipPath: `circle(0px at ${animationOrigin.x}px ${animationOrigin.y}px)`,
                                 }}
-                                transition={{ duration: 1, ease: "easeInOut" }}
+                                transition={{ duration: 0.5, ease: "easeInOut" }}
                                 className={`fixed top-0 left-0 w-screen h-screen bg-gradient-to-br from-${color}-400 to-${color}-600 flex items-center justify-center`}
                                 style={{ zIndex: 9999 }}
                             ></motion.div>
