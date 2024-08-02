@@ -31,9 +31,8 @@ export default function QuizCard({ topic, title, description, color }: QuizCardP
             setShowLoading(true);
 
             setTimeout(() => {
-                setIsSelected(false);
                 router.push(`/quiz/${title}`);
-            }, 750);
+            }, 500);
         },
         [title, router]
     );
