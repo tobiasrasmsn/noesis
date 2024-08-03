@@ -13,6 +13,7 @@
     "@types/canvas-confetti": "^1.6.4",
     "@types/d3-interpolate": "^3.0.4",
     "@types/flubber": "^0.4.0",
+    "@upstash/redis": "^1.34.0",
     "canvas-confetti": "^1.9.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -21,11 +22,14 @@
     "framer-motion": "^11.3.19",
     "lucide-react": "^0.424.0",
     "next": "14.2.5",
+    "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0-rc2",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
