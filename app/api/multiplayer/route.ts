@@ -10,19 +10,21 @@ interface Player {
     lastAnswer: number | null;
 }
 
+interface Question {
+    question: string;
+    answers: string[];
+    correctAnswer: number;
+}
+
 interface GameData {
     topic: string;
     players: Player[];
     currentQuestion: number;
-    questions: {
-        question: string;
-        answers: string[];
-        correctAnswer: number;
-    }[];
+    questions: Question[];
 }
 
-function shuffleQuestions(topic: string) {
-    const quizData = (quizzes as any)[topic.toUpperCase()];
+function shuffleQuestions(topic: string): Question[] {
+    const quizData = (quizzes as Record<string, { questions: Question[] }>)[topic.toUpperCase()];
     return shuffleArray(quizData.questions);
 }
 
