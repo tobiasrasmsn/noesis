@@ -7,8 +7,8 @@ export const SPACE = {
             correctAnswer: 0,
         },
         {
-            question: "Which galaxy is closest to the Milky Way?",
-            answers: ["Andromeda", "Triangulum", "Centaurus A", "Sombrero"],
+            question: "Which planet is known as the Red Planet?",
+            answers: ["Mars", "Jupiter", "Saturn", "Venus"],
             correctAnswer: 0,
         },
         {
@@ -17,9 +17,24 @@ export const SPACE = {
             correctAnswer: 0,
         },
         {
-            question: "Which planet is known as the Red Planet?",
-            answers: ["Mars", "Jupiter", "Saturn", "Venus"],
-            correctAnswer: 0,
+            question: "What is the closest star to Earth?",
+            answers: ["Alpha Centauri", "Betelgeuse", "Proxima Centauri", "Sirius"],
+            correctAnswer: 2,
+        },
+        {
+            question: "What galaxy is Earth located in?",
+            answers: ["Andromeda", "Milky Way", "Whirlpool", "Pinwheel"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What is the name of NASA's most famous space telescope?",
+            answers: ["Kepler", "Hubble", "James Webb", "Chandra"],
+            correctAnswer: 1,
+        },
+        {
+            question: "What planet is known as the Morning Star or the Evening Star?",
+            answers: ["Mars", "Jupiter", "Venus", "Saturn"],
+            correctAnswer: 2,
         },
         {
             question: "What is the name of the first man-made satellite launched into space?",
@@ -29,26 +44,6 @@ export const SPACE = {
         {
             question: "How many moons does Jupiter have?",
             answers: ["53", "67", "79", "92"],
-            correctAnswer: 2,
-        },
-        {
-            question: "What is the closest star to Earth?",
-            answers: ["Alpha Centauri", "Betelgeuse", "Proxima Centauri", "Sirius"],
-            correctAnswer: 2,
-        },
-        {
-            question: "What is the name of NASA's most famous space telescope?",
-            answers: ["Kepler", "Hubble", "James Webb", "Chandra"],
-            correctAnswer: 1,
-        },
-        {
-            question: "What galaxy is Earth located in?",
-            answers: ["Andromeda", "Milky Way", "Whirlpool", "Pinwheel"],
-            correctAnswer: 1,
-        },
-        {
-            question: "What planet is known as the Morning Star or the Evening Star?",
-            answers: ["Mars", "Jupiter", "Venus", "Saturn"],
             correctAnswer: 2,
         },
         {
@@ -62,17 +57,12 @@ export const SPACE = {
             correctAnswer: 2,
         },
         {
-            question: "What is the name of the first American astronaut to orbit Earth?",
-            answers: ["Alan Shepard", "John Glenn", "Neil Armstrong", "Buzz Aldrin"],
-            correctAnswer: 1,
-        },
-        {
-            question: "What planet is known for its prominent ring system?",
+            question: "Which planet is known for its prominent ring system?",
             answers: ["Jupiter", "Saturn", "Uranus", "Neptune"],
             correctAnswer: 1,
         },
         {
-            question: "What is the closest planet to the Sun?",
+            question: "What planet is the closest to the Sun?",
             answers: ["Venus", "Earth", "Mercury", "Mars"],
             correctAnswer: 2,
         },
@@ -128,11 +118,6 @@ export const HISTORY = {
             correctAnswer: 2,
         },
         {
-            question: "Who was the second President of the United States?",
-            answers: ["George Washington", "John Adams", "Thomas Jefferson", "James Madison"],
-            correctAnswer: 1,
-        },
-        {
             question: "In which year did the Titanic sink?",
             answers: ["1905", "1912", "1918", "1925"],
             correctAnswer: 1,
@@ -151,11 +136,6 @@ export const HISTORY = {
             question: "Who discovered America in 1492?",
             answers: ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "Amerigo Vespucci"],
             correctAnswer: 1,
-        },
-        {
-            question: "What was the main cause of the French Revolution?",
-            answers: ["Economic crisis", "Religious conflict", "Territorial disputes", "Cultural differences"],
-            correctAnswer: 0,
         },
         {
             question: "When was the Declaration of Independence signed?",
@@ -319,11 +299,6 @@ export const SCIENCE = {
             correctAnswer: 2,
         },
         {
-            question: "What is the powerhouse of the cell?",
-            answers: ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
-            correctAnswer: 1,
-        },
-        {
             question: "What gas do plants absorb from the atmosphere?",
             answers: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Methane"],
             correctAnswer: 1,
@@ -332,11 +307,6 @@ export const SCIENCE = {
             question: "What is the hardest natural substance on Earth?",
             answers: ["Gold", "Iron", "Diamond", "Platinum"],
             correctAnswer: 2,
-        },
-        {
-            question: "Which planet is known as the Earth's twin?",
-            answers: ["Mars", "Venus", "Jupiter", "Saturn"],
-            correctAnswer: 1,
         },
         {
             question: "What is the main gas found in the air we breathe?",
@@ -469,22 +439,6 @@ export const TECHNOLOGY = {
             answers: ["Facebook", "Instagram", "Twitter", "TikTok"],
             correctAnswer: 3,
         },
-        {
-            question:
-                "What is the term for a malicious software designed to harm, exploit, or otherwise compromise a computer system?",
-            answers: ["Virus", "Trojan", "Malware", "Worm"],
-            correctAnswer: 2,
-        },
-        {
-            question: "What is the primary purpose of an operating system?",
-            answers: [
-                "Managing hardware resources",
-                "Word processing",
-                "Browsing the internet",
-                "Creating spreadsheets",
-            ],
-            correctAnswer: 0,
-        },
     ],
 };
 
@@ -590,16 +544,6 @@ export const MUSIC = {
             question: "Which music genre originated in Jamaica?",
             answers: ["Reggae", "Jazz", "Blues", "Rock"],
             correctAnswer: 0,
-        },
-        {
-            question: "What is the traditional Japanese drum called?",
-            answers: ["Bongo", "Conga", "Taiko", "Djembe"],
-            correctAnswer: 2,
-        },
-        {
-            question: "Who wrote the opera 'Carmen'?",
-            answers: ["Verdi", "Wagner", "Bizet", "Puccini"],
-            correctAnswer: 2,
         },
     ],
 };
@@ -707,16 +651,6 @@ export const MOVIES = {
             answers: ["Tom Hanks", "Matt Damon", "Brad Pitt", "Johnny Depp"],
             correctAnswer: 0,
         },
-        {
-            question: "What is the name of the second film in the 'Lord of the Rings' trilogy?",
-            answers: ["The Fellowship of the Ring", "The Two Towers", "The Return of the King", "The Hobbit"],
-            correctAnswer: 1,
-        },
-        {
-            question: "Which film won the Academy Award for Best Picture in 2021?",
-            answers: ["Mank", "Nomadland", "The Father", "Judas and the Black Messiah"],
-            correctAnswer: 1,
-        },
     ],
 };
 
@@ -823,16 +757,6 @@ export const SPORTS = {
             answers: ["China", "Russia", "Germany", "USA"],
             correctAnswer: 3,
         },
-        {
-            question: "In which sport do you compete in a velodrome?",
-            answers: ["Cycling", "Running", "Swimming", "Skiing"],
-            correctAnswer: 0,
-        },
-        {
-            question: "What is the highest possible score in a single game of ten-pin bowling?",
-            answers: ["200", "250", "300", "350"],
-            correctAnswer: 2,
-        },
     ],
 };
 
@@ -901,11 +825,6 @@ export const ART = {
             correctAnswer: 1,
         },
         {
-            question: "Who painted 'The Persistence of Memory'?",
-            answers: ["Salvador Dalí", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
-            correctAnswer: 0,
-        },
-        {
             question: "What is the art style of Andy Warhol known for?",
             answers: ["Cubism", "Surrealism", "Pop Art", "Impressionism"],
             correctAnswer: 2,
@@ -944,11 +863,6 @@ export const ART = {
             question: "What is the title of Leonardo da Vinci's famous mural?",
             answers: ["The Last Supper", "Mona Lisa", "Vitruvian Man", "Annunciation"],
             correctAnswer: 0,
-        },
-        {
-            question: "Which artist is known for 'Starry Night'?",
-            answers: ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Edvard Munch"],
-            correctAnswer: 1,
         },
     ],
 };
@@ -1053,11 +967,6 @@ export const LITERATURE = {
             correctAnswer: 1,
         },
         {
-            question: "Who wrote 'Pride and Prejudice'?",
-            answers: ["Emily Brontë", "Jane Austen", "Charlotte Brontë", "George Eliot"],
-            correctAnswer: 1,
-        },
-        {
             question: "Which book features the character Atticus Finch?",
             answers: ["The Great Gatsby", "1984", "To Kill a Mockingbird", "Moby-Dick"],
             correctAnswer: 2,
@@ -1066,11 +975,6 @@ export const LITERATURE = {
             question: "Who wrote 'The Brothers Karamazov'?",
             answers: ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Ivan Turgenev"],
             correctAnswer: 0,
-        },
-        {
-            question: "Who is the author of 'Crime and Punishment'?",
-            answers: ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Ivan Turgenev"],
-            correctAnswer: 1,
         },
     ],
 };
@@ -1176,16 +1080,6 @@ export const GEOGRAPHY = {
         {
             question: "Which desert is the largest in the world?",
             answers: ["Gobi", "Kalahari", "Sahara", "Antarctica"],
-            correctAnswer: 3,
-        },
-        {
-            question: "What is the name of the highest mountain in Africa?",
-            answers: ["Mount Everest", "Mount Kilimanjaro", "Mount Kenya", "Mount Elbrus"],
-            correctAnswer: 1,
-        },
-        {
-            question: "Which sea is the saltiest body of water on Earth?",
-            answers: ["Red Sea", "Black Sea", "Caspian Sea", "Dead Sea"],
             correctAnswer: 3,
         },
     ],
@@ -1294,16 +1188,6 @@ export const NATURE = {
             answers: ["Bone", "Cartilage", "Keratin", "Ivory"],
             correctAnswer: 2,
         },
-        {
-            question: "Which insect is known for its role in pollination?",
-            answers: ["Ant", "Bee", "Spider", "Butterfly"],
-            correctAnswer: 1,
-        },
-        {
-            question: "What is the largest species of reptile?",
-            answers: ["Crocodile", "Lizard", "Snake", "Turtle"],
-            correctAnswer: 0,
-        },
     ],
 };
 
@@ -1381,11 +1265,6 @@ export const MYTHOLOGY = {
             correctAnswer: 1,
         },
         {
-            question: "What is the name of the Norse world tree?",
-            answers: ["Asgard", "Yggdrasil", "Valhalla", "Midgard"],
-            correctAnswer: 1,
-        },
-        {
             question: "Who is the Egyptian god of the sky?",
             answers: ["Ra", "Anubis", "Horus", "Osiris"],
             correctAnswer: 2,
@@ -1414,11 +1293,6 @@ export const MYTHOLOGY = {
             question: "Who is the Greek god of wine?",
             answers: ["Ares", "Hades", "Dionysus", "Zeus"],
             correctAnswer: 2,
-        },
-        {
-            question: "Which creature has the body of a lion and the head of an eagle?",
-            answers: ["Griffin", "Chimera", "Sphinx", "Hydra"],
-            correctAnswer: 0,
         },
     ],
 };
@@ -1546,16 +1420,6 @@ export const BUSINESS = {
             answers: ["Profit and Loss", "Purchase and Lease", "Price and List", "Production and Logistics"],
             correctAnswer: 0,
         },
-        {
-            question: "Which company is known for the slogan 'I'm Lovin' It'?",
-            answers: ["Burger King", "KFC", "McDonald's", "Subway"],
-            correctAnswer: 2,
-        },
-        {
-            question: "What is the term for buying and selling goods online?",
-            answers: ["E-trade", "E-commerce", "E-business", "E-market"],
-            correctAnswer: 1,
-        },
     ],
 };
 
@@ -1662,11 +1526,6 @@ export const COOKING = {
             answers: ["Cheddar", "Mozzarella", "Feta", "Gouda"],
             correctAnswer: 1,
         },
-        {
-            question: "What is the main ingredient in a traditional Japanese miso soup?",
-            answers: ["Soybeans", "Rice", "Barley", "Wheat"],
-            correctAnswer: 0,
-        },
     ],
 };
 
@@ -1744,11 +1603,6 @@ export const HEALTH = {
             correctAnswer: 3,
         },
         {
-            question: "Which vitamin is essential for blood clotting?",
-            answers: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin K"],
-            correctAnswer: 3,
-        },
-        {
             question: "What is the main function of red blood cells?",
             answers: ["Fight infections", "Carry oxygen", "Clot blood", "Produce antibodies"],
             correctAnswer: 1,
@@ -1782,11 +1636,6 @@ export const HEALTH = {
             question: "What is the main function of white blood cells?",
             answers: ["Carry oxygen", "Produce energy", "Fight infections", "Clot blood"],
             correctAnswer: 2,
-        },
-        {
-            question: "Which mineral is important for maintaining healthy vision?",
-            answers: ["Calcium", "Iron", "Magnesium", "Zinc"],
-            correctAnswer: 3,
         },
     ],
 };

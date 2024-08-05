@@ -265,14 +265,14 @@ export default function QuizPage({ params }: Props) {
     };
 
     const getButtonColor = (index: number) => {
-        if (selectedAnswer === null) return "bg-zinc-700 hover:bg-zinc-600";
-        if (index === randomizedQuestions[currentQuestion].correctAnswer) return "bg-green-500 hover:bg-green-600";
-        if (index === selectedAnswer) return "bg-red-500 hover:bg-red-600";
-        return "bg-zinc-700 hover:bg-zinc-600";
+        if (selectedAnswer === null) return "bg-zinc-900/55 hover:bg-zinc-900/75";
+        if (index === randomizedQuestions[currentQuestion].correctAnswer) return "bg-blue-500/75 hover:bg-blue-600/75";
+        if (index === selectedAnswer) return "bg-orange-500/75 hover:bg-orange-600/75 ";
+        return "bg-zinc-900/55 hover:bg-zinc-900/75";
     };
 
     return (
-        <div className={`min-h-screen bg-zinc-900 text-white flex flex-col items-center justify-center p-4`}>
+        <div className={`min-h-screen bg-[#E5D8CF] text-white flex flex-col items-center justify-center p-4`}>
             <AnimatePresence>
                 {loading ? (
                     <motion.div
@@ -305,15 +305,15 @@ export default function QuizPage({ params }: Props) {
                         transition={{ duration: 0.5 }}
                         className="w-full max-w-md"
                     >
-                        <h1 className="text-3xl font-bold mb-8 capitalize">{topic} Quiz</h1>
-                        {!isMultiplayer && !gameId && (
+                        <h1 className="text-3xl font-normal mb-8 capitalize text-zinc-800 text-center">{topic} Quiz</h1>
+                        {/* {!isMultiplayer && !gameId && (
                             <button
                                 className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded mb-4"
                                 onClick={createMultiplayerGame}
                             >
                                 Play with a friend
                             </button>
-                        )}
+                        )} */}
                         {isMultiplayer && gameReady && players && players.length < 2 && gameId && (
                             <div className="mb-4">
                                 <p>Waiting for friend to join...</p>
@@ -337,28 +337,32 @@ export default function QuizPage({ params }: Props) {
                                         </p>
                                     </div>
                                 )}
-                                <h2 className="text-xl mb-4">
-                                    Question {currentQuestion + 1} of {randomizedQuestions.length}
-                                </h2>
-                                <p className="mb-4">{randomizedQuestions[currentQuestion]?.question}</p>
-                                <div className="space-y-2">
-                                    {randomizedQuestions[currentQuestion]?.answers.map((answer, index) => (
-                                        <button
-                                            key={index}
-                                            className={`w-full p-2 rounded transition-colors duration-300 ${getButtonColor(
-                                                index
-                                            )}`}
-                                            onClick={() => handleAnswer(index)}
-                                            disabled={selectedAnswer !== null || (isMultiplayer && timeLeft === 0)}
-                                        >
-                                            {answer}
-                                        </button>
-                                    ))}
+                                <div className={`p-5 rounded-2xl bg-gradient-to-br ${quiz?.gradient}`}>
+                                    <h2 className="text-xs mb-4 opacity-75">
+                                        {currentQuestion + 1} of {randomizedQuestions.length}
+                                    </h2>
+                                    <p className="mb-4 text-2xl font-medium text-pretty">
+                                        {randomizedQuestions[currentQuestion]?.question}
+                                    </p>
+                                    <div className="space-y-2">
+                                        {randomizedQuestions[currentQuestion]?.answers.map((answer, index) => (
+                                            <button
+                                                key={index}
+                                                className={`w-full p-2 rounded transition-colors duration-300 ${getButtonColor(
+                                                    index
+                                                )}`}
+                                                onClick={() => handleAnswer(index)}
+                                                disabled={selectedAnswer !== null || (isMultiplayer && timeLeft === 0)}
+                                            >
+                                                {answer}
+                                            </button>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         ) : (
                             <div className="text-center">
-                                <h2 className="text-2xl mb-4">Quiz Completed!</h2>
+                                <h2 className="text-xl mb-4 font-normal text-zinc-800/75">Quiz Completed!</h2>
                                 {isMultiplayer && players ? (
                                     <div>
                                         <p className="text-xl mb-4">Final Scores:</p>
@@ -382,7 +386,7 @@ export default function QuizPage({ params }: Props) {
                                         </p>
                                     </div>
                                 ) : (
-                                    <p className="text-xl mb-4">
+                                    <p className="text-sm text-zinc-800/65 mb-4">
                                         Your score: {score} out of {randomizedQuestions.length}
                                     </p>
                                 )}
